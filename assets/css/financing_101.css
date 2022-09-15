@@ -666,11 +666,12 @@
   margin-top: 19px;
 }
 * body main #faqs_container .accordion .accordion-item .accordion-header {
-  margin-bottom: 15px;
-  margin-left: 64.12px;
-  padding-top: 18.4px;
+  width: 672px;
 }
 * body main #faqs_container .accordion .accordion-item .accordion-header h4 {
+  margin-top: 18.4px;
+  margin-bottom: 15px;
+  margin-left: 64.12px;
   color: #2c393e;
   font: normal 700 20px/24.36px 'Proxima Nova';
 }
@@ -706,6 +707,9 @@
   letter-spacing: 0.6px;
   margin-left: 68px;
   width: 505.98px;
+}
+* body main #faqs_container .accordion .accordion-item:first-child {
+  margin-top: 0px;
 }
 * body main #cat {
   left: 792px;
