@@ -8,6 +8,7 @@
 
         main{
             margin: 0px auto;
+            position: relative;
 
             #header_container{
 
@@ -321,16 +322,15 @@
                 margin: 0px;
                 position: relative;
                 z-index: -1;
-                float: left;
                 width: 1440px;
 
                 h2{
                     font: normal 700 40px/48.72px 'Proxima Nova';
                     letter-spacing: 0.6px;
-                    margin-top: 62.13px;
+                    padding-top: 62.13px;
                     margin-left: 145.5px;
                     width: 559px;
-                    height: 55px;
+                    height: 117.13px;
                 }
 
                 #gauge{
@@ -345,7 +345,7 @@
                         padding: 0px;
                         margin-left: 151px;
                         margin-top: 30.87px;
-                        // margin-bottom: 0px;
+                        height: 253px;
                         
                         .group{
                             display: flex;
@@ -365,6 +365,7 @@
                             width: 130px;
                             margin-right: 6px;
                             padding: 0px;
+                            margin-bottom: 4px;
                         }
     
                         #open{
@@ -426,6 +427,8 @@
                             .full_text{
                                 padding-left: 0px;
                                 width: 110px;
+                                position: flex;
+                                height: 72px;
                             }
                         }
                     }
@@ -464,7 +467,7 @@
                 #circle{
                     position: absolute;
                     left: 145px;
-                    top: 164px;
+                    top: 168px;
                 }
 
                 #bar{
@@ -472,6 +475,91 @@
                     left: 678.38px;
                     top: 164px;
                 }
+            }
+
+            #fund_container{
+                
+                h2{
+                    font: normal 700 40px/48.72px 'Proxima Nova';
+                    letter-spacing: 0.6px;
+                    margin-top: 71px;
+                    margin-left: 145.5px;
+                    width: 559px;
+                    height: 55px;
+                }
+
+                div{
+
+                    display: flex;
+                    align-items: flex-start;
+
+                    p{
+                        font: normal 400 18px/27px 'Proxima Nova';
+                        letter-spacing: 0.6px;
+                        margin-top: 58.07px;
+                        margin-left: 145px;
+                        width: 271px;
+                        height: 213.93px;
+                    }
+
+                    table{
+                        width: 293px;
+                        height: 297px;
+                        margin-left: 45.5px;
+                        margin-top: 21px;
+                        color: #333333;
+
+                        th{
+                            font: normal 700 16px/22.4px 'Proxima Nova';
+                            text-align: center;
+                            color: #333333;
+                            width: 123px;
+                            height: 50px;
+                            padding: 0px;
+                            padding-bottom: 21px;
+                        }
+
+                        thead, tbody{
+                            border-style: none;
+                            border-color: transparent;
+                            vertical-align: middle;
+                        }
+
+                        td{
+                            padding: 0px;
+                            font: normal 400 16px/23.49px 'Proxima Nova';
+                            height: 62px;
+                        }
+
+                        .td_title{
+                            padding-left: 19px;
+                            width: 156px;
+                        }
+
+                        .td_data{
+                            width: 137px;
+                            text-align: center;
+                        }
+
+                        .knock{
+                            width: 85.5px;
+                            font: normal 400 12.5px/15.48px 'Proxima Nova';
+                            padding-top: 18px;
+                            padding-right: 18px;
+                            padding-left: 30px;
+                            padding-bottom: 18px;
+                        }
+
+                        .gray_highlight{
+                            background: rgba(196, 196, 196, 0.23);
+                        }
+                    }
+                }
+            }
+
+            #cat{
+                position: absolute;
+
             }
         }
     }
