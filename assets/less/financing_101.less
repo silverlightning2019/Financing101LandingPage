@@ -743,86 +743,84 @@
                 }
             }
 
-            #faqs_container{
-                height: 870px;
+            #faqs{
+                background-color: #f8faff;
+                
+                #faqs_container{
+                    margin: 0px auto;
+                    max-width: 1440px;
+                    padding: 75px 602px 108px 152px;
 
-                h2{
-                    font: normal 700 32px/38.98px 'Proxima Nova';
-                    height: 138.6px;
-                    letter-spacing: 0.6px;
-                    margin-bottom: 18.4px;
-                    margin-left: 152px;
-                    padding-top: 75px;
-                    width: 677.02px;
-                    color: #333333;
-                }
+                    h2{
+                        color: #333333;
+                        font: normal 700 32px/38.98px 'Proxima Nova';
+                        letter-spacing: 0.6px;
+                        margin-bottom: 50px;
+                    }
 
-                .accordion{
-                    margin-left: 153.02px;
-                    margin-top: 18.4px;
-                    width: 676px;
+                    .accordion{
 
-                    .accordion-item{
-                        box-shadow: 0px 6px 8px rgba(42, 104, 129, 0.06);
-                        filter: drop-shadow(0px 5px 19px rgba(11, 31, 39, 0.15));
-                        margin-top: 19px;
+                        .accordion-item{
+                            box-shadow: 0px 6px 8px rgba(42, 104, 129, 0.06);
+                            filter: drop-shadow(0px 5px 19px rgba(11, 31, 39, 0.15));
+                            margin-top: 19px;
 
-                        .accordion-header{
-                            width: 672px;
+                            .accordion-header{
+                                padding: 38px 47px 38px 64px;
 
-                            h4{
-                                margin-top: 18.4px;
-                                margin-bottom: 15px;
-                                margin-left: 64.12px;
-                                color: #2c393e;
-                                font: normal 700 20px/24.36px 'Proxima Nova';
-                            }
-                            
-                            .accordion-button{
-                                margin: 0px;
-                                padding: 0px;
+                                h4{
+                                    color: #2c393e;
+                                    font: normal 700 20px/24.36px 'Proxima Nova';
+                                    margin-bottom: 0px;
+                                }
+                                
+                                .accordion-button{
+                                    margin: 0px;
+                                    padding: 0px;
+                                    display: flex;
+                                    align-items: center;
 
-                                .accordion_text{
-                                    color: #333333;
-                                    height: 51.59px;
-                                    vertical-align: middle;
+                                    .accordion_text{
+                                        color: #333333;
+                                        height: 51.59px;
+                                        vertical-align: middle;
 
-                                    h5{
-                                        font: normal 700 22px/26.8px 'Proxima Nova';
-                                        margin: 0px;
+                                        h5{
+                                            font: normal 700 22px/26.8px 'Proxima Nova';
+                                            margin: 0px;
+                                        }
+
+                                        .accordion_p{
+                                            padding: 0px;
+                                        }
                                     }
+                                }
 
-                                    .accordion_p{
-                                        padding: 0px;
-                                    }
+                                .accordion-button:after {
+                                    background-image: url("../img/arrow-down-1.png");
+                                }
+
+                                .accordion-button:not(.collapsed){
+                                    background-color: #ffffff;
                                 }
                             }
 
-                            .accordion-button:after {
-                                background-image: url("../img/arrow-down-1.png");
-                                margin-right: 47px;
-                            }
+                            .accordion-body{
+                                padding: 0px;
 
-                            .accordion-button:not(.collapsed){
-                                background-color: #ffffff;
-                            }
-                        }
-
-                        .accordion-body{
-                            padding: 0px;
-
-                            p{
-                                font: normal 400 16px/23.02px 'Proxima Nova';
-                                height: 208px;
-                                letter-spacing: 0.6px;
-                                margin-left: 68px;
-                                width: 505.98px;
+                                p{
+                                    font: normal 400 16px/23.02px 'Proxima Nova';
+                                    height: 208px;
+                                    letter-spacing: 0.6px;
+                                    margin-left: 68px;
+                                    width: 505.98px;
+                                }
                             }
                         }
-                    }
 
-                    .accordion-item:first-child{
-                        margin-top: 0px;
+                        .accordion-item:first-child{
+                            margin-top: 0px;
+                        }
                     }
                 }
             }
