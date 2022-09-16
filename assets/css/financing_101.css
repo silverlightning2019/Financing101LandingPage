@@ -430,137 +430,128 @@
 * body main #fund #fund_container div table tbody tr:nth-child(odd) {
   background: rgba(196, 196, 196, 0.23);
 }
-* body main #when_funding_container {
+* body main #when_funding {
   background-color: #505170;
+}
+* body main #when_funding #when_funding_container {
   color: #ffffff;
   height: 1218px;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 77px 653px 66px 146px;
 }
-* body main #when_funding_container h2 {
+* body main #when_funding #when_funding_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
-  height: 178px;
   letter-spacing: 0.6px;
   margin-bottom: 28px;
-  margin-left: 147px;
-  padding-top: 77px;
-  width: 559px;
 }
-* body main #when_funding_container p {
+* body main #when_funding #when_funding_container p {
   font: normal 400 18px/27px 'Proxima Nova';
-  height: 135px;
   letter-spacing: 0.6px;
   margin-bottom: 26px;
-  margin-left: 145px;
-  width: 612px;
 }
-* body main #when_funding_container ul {
+* body main #when_funding #when_funding_container ul {
+  margin-bottom: 0px;
   padding: 0px;
 }
-* body main #when_funding_container ul li {
+* body main #when_funding #when_funding_container ul li {
   align-items: flex-start;
   display: flex;
   list-style: none;
   padding: 0px;
 }
-* body main #when_funding_container ul li #admin {
+* body main #when_funding #when_funding_container ul li #admin {
   margin-bottom: 34px;
-  margin-left: 145.5px;
 }
-* body main #when_funding_container ul li #study {
+* body main #when_funding #when_funding_container ul li #study {
   margin-bottom: 50px;
-  margin-left: 156px;
+  margin-left: 10px;
 }
-* body main #when_funding_container ul li #coinbank {
+* body main #when_funding #when_funding_container ul li #coinbank {
   margin-bottom: 26px;
-  margin-left: 166.39px;
+  margin-left: 20px;
 }
-* body main #when_funding_container ul li #coding {
-  margin-left: 166px;
+* body main #when_funding #when_funding_container ul li #coding {
+  margin-left: 20px;
 }
-* body main #when_funding_container ul li div h5 {
+* body main #when_funding #when_funding_container ul li div h5 {
   font: normal 700 20px/24.36px 'Proxima Nova';
   height: 35px;
   letter-spacing: 0.6px;
   margin-bottom: 0px;
 }
-* body main #when_funding_container ul li div p {
-  bottom: 0px;
+* body main #when_funding #when_funding_container ul li div p {
   font: normal 400 18px/27px 'Proxima Nova';
-  height: auto;
   letter-spacing: 0.6px;
   margin-left: 0px;
-  width: 406px;
+  margin-bottom: 0px;
 }
-* body main #when_funding_container ul li #speak {
+* body main #when_funding #when_funding_container ul li #speak {
   margin-left: 44.5px;
   margin-top: 16px;
 }
-* body main #when_funding_container ul li #apply {
+* body main #when_funding #when_funding_container ul li #apply {
   margin-left: 52px;
   margin-top: 23px;
 }
-* body main #when_funding_container ul li #secure {
+* body main #when_funding #when_funding_container ul li #secure {
   margin-left: 62.61px;
   margin-top: 21px;
 }
-* body main #when_funding_container ul li #start {
+* body main #when_funding #when_funding_container ul li #start {
   margin-left: 56px;
   margin-top: 19px;
 }
-* body main #top_names_container {
-  height: 393px;
+* body main #top_names {
+  background-color: #f8faff;
 }
-* body main #top_names_container h2 {
+* body main #top_names #top_names_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 87px 600px 88px 144px;
+}
+* body main #top_names #top_names_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
-  height: 148px;
   letter-spacing: 0.6px;
   margin-bottom: 40px;
-  margin-left: 147px;
-  padding-top: 87px;
-  width: 678px;
 }
-* body main #top_names_container div {
-  margin-left: 144px;
+* body main #top_names #top_names_container ul {
+  margin: 0px;
+  padding: 0px;
 }
-* body main #top_names_container div ul {
-  align-items: center;
-  display: flex;
-  margin-bottom: 0px;
-  padding-left: 0px;
-}
-* body main #top_names_container div ul li {
+* body main #top_names #top_names_container ul li {
+  display: inline;
   list-style: none;
+  margin-bottom: 37px;
+  padding: 0px;
 }
-* body main #top_names_container div ul #google {
+* body main #top_names #top_names_container ul img {
+  margin-bottom: 37px;
+}
+* body main #top_names #top_names_container ul #google {
   margin-right: 28px;
+  margin-bottom: 37px;
 }
-* body main #top_names_container div ul #amazon {
+* body main #top_names #top_names_container ul #amazon {
   margin-right: 34.17px;
 }
-* body main #top_names_container div ul #airbnb {
+* body main #top_names #top_names_container ul #airbnb {
   margin-right: 63px;
 }
-* body main #top_names_container div ul #dropbox {
+* body main #top_names #top_names_container ul #dropbox {
   margin-right: 63px;
 }
-* body main #top_names_container div ul #uber {
+* body main #top_names #top_names_container ul #uber {
   margin-right: 57px;
 }
-* body main #top_names_container div ul #slack {
+* body main #top_names #top_names_container ul #slack {
   margin-right: 59px;
 }
-* body main #top_names_container div ul #twitter {
+* body main #top_names #top_names_container ul #twitter {
   margin-right: 42px;
 }
-* body main #top_names_container div ul #facebook {
+* body main #top_names #top_names_container ul #facebook {
   margin-right: 44px;
-}
-* body main #top_names_container div #first_group {
-  height: 43.86px;
-  margin-bottom: 37.14px;
-}
-* body main #top_names_container div #second_group {
-  height: 36px;
-  margin-bottom: 88px;
 }
 * body main #quote_container {
   height: 332px;
