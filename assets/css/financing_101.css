@@ -1,104 +1,113 @@
 * body {
   background-color: #f8faff;
-  height: 5887px;
   margin: 0px auto;
-  width: 1440px;
 }
 * body main {
   margin: 0px auto;
   position: relative;
 }
-* body main #header_container .header_notes {
+* body main #header {
+  background-color: #272634;
+}
+* body main #header #cohort_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 3px 40px 3px 600px;
+}
+* body main #header #cohort_container #cohort_notes {
   background-color: #272634;
   color: #ffffff;
   font: normal 400 16px/16px 'Proxima Nova';
-  height: 42px;
   letter-spacing: 0.6px;
-  width: 1440px;
 }
-* body main #header_container .header_notes ul {
+* body main #header #cohort_container #cohort_notes #cohort_details {
   align-items: center;
   display: flex;
   padding: 0px;
+  margin: 0px;
 }
-* body main #header_container .header_notes ul li {
+* body main #header #cohort_container #cohort_notes #cohort_details li {
   list-style: none;
   padding: 0px;
 }
-* body main #header_container .header_notes ul li button {
+* body main #header #cohort_container #cohort_notes #cohort_details li button {
   background-color: transparent;
   border: 1px solid #05aae1;
   color: #ffffff;
   height: 36px;
-  margin-left: 34px;
-  margin-top: 3px;
+  margin-left: 64px;
   width: 120px;
 }
-* body main #header_container .header_notes ul li:first-child {
-  margin-left: 600px;
+* body main #header #cohort_container #cohort_notes #cohort_details #cohort_text {
   margin-right: 0px;
 }
-* body main #header_container .header_notes ul #contact {
+* body main #header #cohort_container #cohort_notes #cohort_details #cohort_contact {
   align-items: center;
   display: flex;
-  margin-left: 231px;
+  margin-left: 230px;
   margin-right: 0px;
 }
-* body main #header_container .header_notes ul #contact img {
+* body main #header #cohort_container #cohort_notes #cohort_details #cohort_contact img {
   margin-right: 13px;
   vertical-align: center;
 }
-* body main #header_container .header_notes ul #contact h5 {
+* body main #header #cohort_container #cohort_notes #cohort_details #cohort_contact h5 {
   color: #05aae1;
+  font: normal 400 16px/16px 'Proxima Nova';
+  letter-spacing: 0.6px;
   margin: 0px;
   vertical-align: center;
 }
-* body main #header_container nav {
+* body main #nav_bar {
   background-color: #1d1f21;
+}
+* body main #nav_bar #nav_container {
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 13px 40px 13px 30px;
+}
+* body main #nav_bar #nav_container nav {
   font: normal 700 16px/19px 'Proxima Nova';
   letter-spacing: 0.4px;
   margin: 0px;
   padding: 0px;
 }
-* body main #header_container nav .navbar-nav .nav-link {
+* body main #nav_bar #nav_container nav .navbar-nav .nav-link {
   padding: 0px;
 }
-* body main #header_container nav #coding_dojo_logo {
+* body main #nav_bar #nav_container nav #coding_dojo_logo {
   height: 30px;
-  margin-bottom: 13px;
-  margin-left: 30px;
   margin-right: 179px;
-  margin-top: 13px;
   width: 99px;
 }
-* body main #header_container nav .collapse {
+* body main #nav_bar #nav_container nav .collapse {
   margin: 0px;
 }
-* body main #header_container nav .collapse li {
+* body main #nav_bar #nav_container nav .collapse li {
   align-items: center;
   display: flex;
   margin-left: 0px;
   margin-right: 46px;
 }
-* body main #header_container nav .collapse li a {
+* body main #nav_bar #nav_container nav .collapse li a {
   color: #ffffff;
   padding: 0px;
 }
-* body main #header_container nav .collapse li .dropdown_icon {
+* body main #nav_bar #nav_container nav .collapse li .dropdown_icon {
   height: 4px;
   margin-left: 10px;
   width: 10px;
 }
-* body main #header_container nav .collapse li:last-child {
-  margin-right: 70px;
+* body main #nav_bar #nav_container nav .collapse li:last-child {
+  margin-right: 72px;
 }
-* body main #header_container nav .collapse .dojo {
+* body main #nav_bar #nav_container nav .collapse .dojo {
   margin-right: 25px;
 }
-* body main #header_container nav .collapse .online {
+* body main #nav_bar #nav_container nav .collapse .online {
   margin-right: 29px;
 }
-* body main #header_container nav button {
+* body main #nav_bar #nav_container nav button {
   background-color: #05aae1;
   color: #ffffff;
   font: normal 700 16px/19.49px 'Proxima Nova';
@@ -107,33 +116,11 @@
   text-align: center;
   width: 120px;
 }
-* body main #main_container {
-  background: #272634 url("../img/financing_101_banner.png") no-repeat center;
-  color: #ffffff;
-  height: 485px;
-  margin: 0px;
-  padding: 0px;
-  position: relative;
+* body main #fixed_note #fixed_note_container {
+  margin: 0px auto;
+  max-width: 1440px;
 }
-* body main #main_container h1 {
-  font: normal 700 64px/73.73px 'Proxima Nova';
-  height: 147px;
-  left: 142px;
-  letter-spacing: 0.6px;
-  position: absolute;
-  top: 126px;
-  width: 575px;
-}
-* body main #main_container #main_p {
-  font: normal 400 17px/18px 'Proxima Nova';
-  height: 54px;
-  left: 142px;
-  letter-spacing: 0.6px;
-  position: absolute;
-  top: 286px;
-  width: 456px;
-}
-* body main #main_container #fixed_note {
+* body main #fixed_note #fixed_note_container #fixed_note_box {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
@@ -142,10 +129,11 @@
   height: 441px;
   margin-left: 888px;
   margin-top: 95px;
+  margin-right: 144px;
   position: fixed;
   width: 406px;
 }
-* body main #main_container #fixed_note h2 {
+* body main #fixed_note #fixed_note_container #fixed_note_box #fixed_note_head_text {
   font: normal 700 40px/45px 'Proxima Nova';
   height: 154px;
   letter-spacing: 0.6px;
@@ -153,14 +141,14 @@
   margin-top: 51px;
   width: 274px;
 }
-* body main #main_container #fixed_note #fixed_note_p {
+* body main #fixed_note #fixed_note_container #fixed_note_box #fixed_note_p {
   font: normal 400 16px/22px 'Proxima Nova';
   height: 61px;
   letter-spacing: 0.3px;
   margin-left: 65px;
   width: 270px;
 }
-* body main #main_container #fixed_note button {
+* body main #fixed_note #fixed_note_container #fixed_note_box button {
   background: #05aae1;
   border-radius: 2px;
   border: none;
@@ -173,6 +161,28 @@
   margin-top: 38px;
   text-align: center;
   width: 271px;
+}
+* body main #banner {
+  background: url("../img/financing_101_banner.png") no-repeat center;
+  background-size: cover;
+}
+* body main #banner #banner_container {
+  color: #ffffff;
+  height: 485px;
+  margin: 0px;
+  padding: 126px 786px 166px 142px;
+  position: relative;
+  margin: 0px auto;
+  max-width: 1440px;
+}
+* body main #banner #banner_container h1 {
+  font: normal 700 64px/73.73px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  margin-bottom: 13px;
+}
+* body main #banner #banner_container #main_p {
+  font: normal 400 17px/18px 'Proxima Nova';
+  letter-spacing: 0.6px;
 }
 * body main #popular_methods_container {
   background-color: #f8faff;
