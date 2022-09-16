@@ -162,6 +162,7 @@
                         margin-right: 144px;
                         position: fixed;
                         width: 406px;
+                        z-index: 0;
     
                         #fixed_note_head_text{
                             font: normal 700 40px/45px 'Proxima Nova';
@@ -821,6 +822,92 @@
                         .accordion-item:first-child{
                             margin-top: 0px;
                         }
+                    }
+                }
+            }
+
+            #footer{
+                background-color: #1e1e29;
+
+                #footer_container{
+                    margin: 0px auto;
+                    max-width: 1440px;
+                    padding: 68px 150px 68px 134px;
+                    color: #ffffff;
+                    
+                    #footer_links_and_form{
+                        align-items: flex-start;
+                        display: flex;
+
+                        #footer_links{
+                            align-items: flex-start;
+                            display: flex;
+                            margin-bottom: 50px;
+
+                            ul{
+                                list-style: none;
+                                padding-left: 0px;
+
+                                li:first-child{
+                                    font: normal 700 12px/30px 'Proxima Nova';
+                                    margin-bottom: 24px;
+                                    text-transform: uppercase;
+                                }
+
+                                li{
+                                    font: normal 400 14px/37px 'Proxima Nova';
+
+                                    a{
+                                        text-decoration: none;
+                                        color: #ffffff;
+                                    }
+                                }
+                            }
+
+                            #partnerships{
+                                margin-right: 50px;
+                            }
+
+                            #resources{
+                                margin-right: 72px;
+                            }
+
+                            #campuses{
+                                margin-right: 262px;
+                            }
+                        }
+
+                        #footer_form{
+                            
+                            h4{
+                                font: normal 400 16px/28px 'Proxima Nova';
+                                letter-spacing: 0.6px;
+                                margin-bottom: 22px;
+                            }
+                        }
+
+                    }
+
+                    #footer_details{
+                        border-top: 0.5px solid #a5a3a3;
+
+                        h3{
+                            font: normal 400 20px/27px 'Proxima Nova';
+                            margin-top: 28px;
+
+                            span{
+                                font: normal 700 20px/27px 'Proxima Nova';
+                            }
+                        }
+
+                        h4{
+                            font: normal 400 16px/27px 'Proxima Nova';
+
+                            a{
+                                text-decoration: none;
+                            }
+                        }
+
                     }
                 }
             }
