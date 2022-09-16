@@ -553,44 +553,49 @@
 * body main #top_names #top_names_container ul #facebook {
   margin-right: 44px;
 }
-* body main #quote_container {
-  height: 332px;
-  margin-left: 162px;
-  position: relative;
+* body main #quote {
+  background-color: #f8faff;
 }
-* body main #quote_container h3 {
+* body main #quote #quote_container {
+  position: relative;
+  margin: 0px auto;
+  max-width: 1440px;
+  padding: 71px 602px 141px 162px;
+}
+* body main #quote #quote_container h3 {
   color: #333333;
   font: normal 400 31px/31px 'Proxima Nova';
-  height: 120px;
   letter-spacing: 0.6px;
-  margin-top: 71px;
-  width: 676px;
+  margin-bottom: 42px;
 }
-* body main #quote_container div {
+* body main #quote #quote_container div {
   align-items: flex-start;
   display: flex;
 }
-* body main #quote_container div ul {
+* body main #quote #quote_container div img {
+  margin-right: 17px;
+}
+* body main #quote #quote_container div ul {
   list-style: none;
-  margin-left: 17px;
+  margin-bottom: 0px;
   padding-left: 0px;
 }
-* body main #quote_container div ul h5 {
+* body main #quote #quote_container div ul h5 {
   color: #333333;
   font: normal 700 19px/23.14px 'Proxima Nova';
   height: 22px;
   margin-bottom: 3px;
 }
-* body main #quote_container div ul p {
+* body main #quote #quote_container div ul p {
   color: #333333;
   font: normal 400 16px/22.4px 'Proxima Nova';
   height: 22px;
   margin-bottom: 0px;
 }
-* body main #quote_container #quotation {
-  left: 219px;
+* body main #quote #quote_container #quotation {
+  left: 381px;
   position: absolute;
-  top: 68px;
+  top: 139px;
   margin: 0px;
 }
 * body main #faqs_container {
