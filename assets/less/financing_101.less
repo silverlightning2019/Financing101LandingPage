@@ -145,6 +145,7 @@
             }
 
             #fixed_note{
+                z-index:-1;
 
                 #fixed_note_container{
                     margin: 0px auto;
@@ -162,7 +163,6 @@
                         margin-right: 144px;
                         position: fixed;
                         width: 406px;
-                        z-index: 0;
     
                         #fixed_note_head_text{
                             font: normal 700 40px/45px 'Proxima Nova';
@@ -828,16 +828,18 @@
 
             #footer{
                 background-color: #1e1e29;
+                position: relative;
 
                 #footer_container{
                     margin: 0px auto;
                     max-width: 1440px;
-                    padding: 68px 150px 68px 134px;
+                    padding: 68px 145px 68px 134px;
                     color: #ffffff;
+                    // width: 100%;
                     
                     #footer_links_and_form{
                         align-items: flex-start;
-                        display: flex;
+                        display: flex; 
 
                         #footer_links{
                             align-items: flex-start;
@@ -878,36 +880,106 @@
                         }
 
                         #footer_form{
+                            align-items: flex-start;
                             
                             h4{
                                 font: normal 400 16px/28px 'Proxima Nova';
                                 letter-spacing: 0.6px;
                                 margin-bottom: 22px;
                             }
+
+                            form{
+                                margin-bottom: 20px;
+
+                                input{
+                                    background: #ffffff;
+                                    border-radius: 8px;
+                                    font: normal 400 14px/20px 'Proxima Nova';
+                                    letter-spacing: 0.2px;
+                                    margin-right: 12px;
+                                    padding: 15px 109px 15px 23px;
+                                    vertical-align: middle;
+                                    width: 285px;
+                                }
+
+
+
+                                button{
+                                    background-color: transparent;
+                                    border-radius: 8px;
+                                    border: 1px solid #ffffff;
+                                    color: #ffffff;
+                                    filter: drop-shadow(0px 6px 6px rgba(11, 31, 39, 0.08));
+                                    font: normal 700 14px/17px 'Proxima Nova';
+                                    letter-spacing: 0.6px;
+                                    padding: 17px 30px 16px 30px;
+                                    text-align: center;
+                                    vertical-align: middle;
+                                }
+                            }
+
+                            p{
+                                font: normal 400 10px/17px 'Proxima Nova';
+                                padding-bottom: 0px;
+                                width: 406px;
+
+                                a{
+                                    color: #05a9e1;
+                                    text-decoration: none;
+                                }
+                            }
                         }
 
                     }
 
                     #footer_details{
+                        align-items: center;
                         border-top: 0.5px solid #a5a3a3;
+                        display: flex;
+                        padding: 28px 256px 0px 0px;
+                    
+                        #footer_contacts{
+                            margin-right: 398px;
+                            vertical-align: middle;
 
-                        h3{
-                            font: normal 400 20px/27px 'Proxima Nova';
-                            margin-top: 28px;
-
-                            span{
-                                font: normal 700 20px/27px 'Proxima Nova';
+                            h3{
+                                font: normal 400 20px/27px 'Proxima Nova';
+    
+                                span{
+                                    font: normal 700 20px/27px 'Proxima Nova';
+                                }
                             }
+    
+                            h4{
+                                font: normal 400 16px/27px 'Proxima Nova';
+    
+                                a{
+                                    color: #05a9e1;
+                                }
+                            }
+    
                         }
 
-                        h4{
-                            font: normal 400 16px/27px 'Proxima Nova';
+                        #footer_language{
+                            vertical-align: middle;
 
-                            a{
-                                text-decoration: none;
+                            #language{
+                                list-style: none;
+                                padding-left: 0px;
+                                display: flex;
+                                align-items: center;
+
+                                li:first-child{
+                                    font: normal 700 12px/30px 'Proxima Nova';
+                                    text-transform: uppercase;
+                                }
+
+                                li{
+                                    font: normal 400 12px/37px 'Proxima Nova';
+                                    margin-right: 20px;
+                                }
                             }
                         }
-
                     }
                 }
             }

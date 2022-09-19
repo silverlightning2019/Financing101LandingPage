@@ -116,6 +116,9 @@
   text-align: center;
   width: 120px;
 }
+* body main #fixed_note {
+  z-index: -1;
+}
 * body main #fixed_note #fixed_note_container {
   margin: 0px auto;
   max-width: 1440px;
@@ -132,7 +135,6 @@
   margin-right: 144px;
   position: fixed;
   width: 406px;
-  z-index: 0;
 }
 * body main #fixed_note #fixed_note_container #fixed_note_box #fixed_note_head_text {
   font: normal 700 40px/45px 'Proxima Nova';
@@ -665,11 +667,12 @@
 }
 * body main #footer {
   background-color: #1e1e29;
+  position: relative;
 }
 * body main #footer #footer_container {
   margin: 0px auto;
   max-width: 1440px;
-  padding: 68px 150px 68px 134px;
+  padding: 68px 145px 68px 134px;
   color: #ffffff;
 }
 * body main #footer #footer_container #footer_links_and_form {
@@ -706,24 +709,84 @@
 * body main #footer #footer_container #footer_links_and_form #footer_links #campuses {
   margin-right: 262px;
 }
+* body main #footer #footer_container #footer_links_and_form #footer_form {
+  align-items: flex-start;
+}
 * body main #footer #footer_container #footer_links_and_form #footer_form h4 {
   font: normal 400 16px/28px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 22px;
 }
+* body main #footer #footer_container #footer_links_and_form #footer_form form {
+  margin-bottom: 20px;
+}
+* body main #footer #footer_container #footer_links_and_form #footer_form form input {
+  background: #ffffff;
+  border-radius: 8px;
+  font: normal 400 14px/20px 'Proxima Nova';
+  letter-spacing: 0.2px;
+  margin-right: 12px;
+  padding: 15px 109px 15px 23px;
+  vertical-align: middle;
+  width: 285px;
+}
+* body main #footer #footer_container #footer_links_and_form #footer_form form button {
+  background-color: transparent;
+  border-radius: 8px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  filter: drop-shadow(0px 6px 6px rgba(11, 31, 39, 0.08));
+  font: normal 700 14px/17px 'Proxima Nova';
+  letter-spacing: 0.6px;
+  padding: 17px 30px 16px 30px;
+  text-align: center;
+  vertical-align: middle;
+}
+* body main #footer #footer_container #footer_links_and_form #footer_form p {
+  font: normal 400 10px/17px 'Proxima Nova';
+  padding-bottom: 0px;
+  width: 406px;
+}
+* body main #footer #footer_container #footer_links_and_form #footer_form p a {
+  color: #05a9e1;
+  text-decoration: none;
+}
 * body main #footer #footer_container #footer_details {
+  align-items: center;
   border-top: 0.5px solid #a5a3a3;
+  display: flex;
+  padding: 28px 256px 0px 0px;
 }
-* body main #footer #footer_container #footer_details h3 {
+* body main #footer #footer_container #footer_details #footer_contacts {
+  margin-right: 398px;
+  vertical-align: middle;
+}
+* body main #footer #footer_container #footer_details #footer_contacts h3 {
   font: normal 400 20px/27px 'Proxima Nova';
-  margin-top: 28px;
 }
-* body main #footer #footer_container #footer_details h3 span {
+* body main #footer #footer_container #footer_details #footer_contacts h3 span {
   font: normal 700 20px/27px 'Proxima Nova';
 }
-* body main #footer #footer_container #footer_details h4 {
+* body main #footer #footer_container #footer_details #footer_contacts h4 {
   font: normal 400 16px/27px 'Proxima Nova';
 }
-* body main #footer #footer_container #footer_details h4 a {
-  text-decoration: none;
+* body main #footer #footer_container #footer_details #footer_contacts h4 a {
+  color: #05a9e1;
+}
+* body main #footer #footer_container #footer_details #footer_language {
+  vertical-align: middle;
+}
+* body main #footer #footer_container #footer_details #footer_language #language {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+  align-items: center;
+}
+* body main #footer #footer_container #footer_details #footer_language #language li:first-child {
+  font: normal 700 12px/30px 'Proxima Nova';
+  text-transform: uppercase;
+}
+* body main #footer #footer_container #footer_details #footer_language #language li {
+  font: normal 400 12px/37px 'Proxima Nova';
+  margin-right: 20px;
 }
