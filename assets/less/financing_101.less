@@ -30,7 +30,7 @@
                                 list-style: none;
                                 padding: 0px;
 
-                                .cohort_button{
+                                #cohort_button{
                                     background-color: transparent;
                                     border: 1px solid #05aae1;
                                     color: #ffffff;
@@ -50,12 +50,12 @@
                                 margin-left: 230px;
                                 margin-right: 0px;
 
-                                img{
+                                #cohort_phone_icon{
                                     margin-right: 13px;
                                     vertical-align: center;
                                 }
 
-                                h5{
+                                #cohort_contact_number{
                                     color: #05aae1;
                                     font: normal 400 16px/16px 'Proxima Nova';
                                     letter-spacing: 0.6px;
@@ -76,7 +76,7 @@
                     max-width: 1440px;
                     padding: 13px 40px 13px 30px;
 
-                    nav{
+                    .navbar{
                         font: normal 700 16px/19px 'Proxima Nova';
                         letter-spacing: 0.4px;
                         margin: 0px;
@@ -98,13 +98,13 @@
                         .collapse{
                             margin: 0px;
             
-                            li{
+                            .nav-item{
                                 align-items: center;
                                 display: flex;
                                 margin-left: 0px;
                                 margin-right: 46px;
 
-                                a{
+                                .nav-link{
                                     color: #ffffff;
                                     padding: 0px;
                                 }
@@ -129,7 +129,7 @@
                             }
                         }
 
-                        button{
+                        .nav_bar_button{
                             background-color: #05aae1;
                             color: #ffffff;
                             font: normal 700 16px/19.49px 'Proxima Nova';
@@ -184,7 +184,7 @@
                             width: 270px;
                         }
     
-                        button{
+                        #fixed_note_button{
                             background: #05aae1;
                             border-radius: 2px;
                             border: none;
@@ -214,13 +214,13 @@
                     padding: 126px 786px 166px 142px;
                     position: relative;
 
-                    h1{
+                    #banner_h1{
                         font: normal 700 64px/73.73px 'Proxima Nova';
                         letter-spacing: 0.6px;
                         margin-bottom: 13px;
                     }
 
-                    #main_p{
+                    #banner_p{
                         font: normal 400 17px/18px 'Proxima Nova';
                         letter-spacing: 0.6px;
                     }
@@ -235,7 +235,7 @@
                     max-width: 1440px;
                     padding: 79px 620px 108px 143px;
     
-                    h2{
+                    #popular_methods_h2{
                         font: normal 700 40px/48.72px 'Proxima Nova';
                         letter-spacing: 0.6px;
                         margin-bottom: 0px;
@@ -278,7 +278,7 @@
                                         color: #333333;
                                         height: 51.59px;
     
-                                        h5{
+                                        .accordion_h5{
                                             font: normal 700 22px/26.8px 'Proxima Nova';
                                             margin: 0px;
                                         }
@@ -343,19 +343,19 @@
                         top: 167px;
                     }
 
-                    #gauge{
+                    #gauge_savings_list{
                         list-style: none;
                         padding-left: 0px;
                         margin-bottom: 0px;
 
-                        #gauge_progress{
+                        #gauge_savings_progress_item{
                             font: normal 700 14px/17.05px 'Proxima Nova';
                             letter-spacing: 0.6px;
                             margin-top: 30px;
                             padding: 0px;
                             text-align: center;
                             
-                            .gauge_group{
+                            .gauge_group_list{
                                 align-items: center;
                                 display: flex;
                                 padding: 0px;
@@ -408,7 +408,7 @@
                             }
                         }
 
-                        p{
+                        #gauge_savings_p{
                             font: normal 400 10px/10px 'Proxima Nova';
                             letter-spacing: 0.6px;
                             margin-bottom: 0px;
@@ -437,7 +437,7 @@
                         }
                     }
 
-                    h3{
+                    #gauge_savings_saved{
                         font: normal 400 18px/18px 'Proxima Nova';
                         height: 24px;
                         left: 706.98px;
@@ -448,7 +448,7 @@
                         width: 130px;
                     }
 
-                    h4{
+                    #gauge_total_potential_savings{
                         font: normal 700 26px/31.67px 'Proxima Nova';
                         height: 24px;
                         left: 706.98px;
@@ -475,16 +475,16 @@
                     max-width: 1440px;
                     padding: 69px 688px 46px 145px;
                 
-                    h2{
+                    #fund_h2{
                         font: normal 700 40px/48.72px 'Proxima Nova';
                         letter-spacing: 0.6px;
                     }
 
-                    div{
+                    #fund_details{
                         align-items: flex-start;
                         display: flex;
 
-                        p{
+                        #fund_p{
                             font: normal 400 18px/27px 'Proxima Nova';
                             letter-spacing: 0.6px;
                             margin-bottom: 0px;
@@ -493,22 +493,22 @@
                             width: 271px;
                         }
 
-                        .fund_table{
+                        #fund_table{
                             color: #333333;
                             margin-top: 21px;
                             margin-bottom: 0px;
                             width: auto;
                             
-                            thead, tbody{
+                            #fund_table_head, #fund_table_body{
                                 border-color: transparent;
                                 border-style: none;
                                 vertical-align: middle;
                             }
                             
-                            tr{
+                            .fund_table_row{
                                 padding: 20px 18px;
                                 
-                                th{
+                                .fund_table_row_head{
                                     color: #333333;
                                     font: normal 700 16px/22.4px 'Proxima Nova';
                                     height: 50px;
@@ -518,7 +518,7 @@
                                 
                                 }
     
-                                td{
+                                .fund_table_data{
                                     font: normal 400 16px/23.49px 'Proxima Nova';
                                     height: 62px;
                                 }
@@ -540,9 +540,9 @@
                                 }
                             }
 
-                            tbody{
+                            #fund_table_body{
 
-                                tr:nth-child(odd){
+                                .fund_table_row:nth-child(odd){
                                     background: rgba(196, 196, 196, 0.23);
                                 }
                             }

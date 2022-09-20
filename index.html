@@ -20,9 +20,9 @@
                 <div id="cohort_notes">
                     <ul id="cohort_details">
                         <li class="cohort_item" id="cohort_text">Next Cohort starts October 12th</li>
-                        <li class="cohort_item">
+                        <li class="cohort_item" id="cohort_contact">
                             <img src="./assets/img/phone_icon.png" alt="a phone icon" id="cohort_phone_icon">
-                            <h5 id="cohort_contact">(844) 446 3656</h5>
+                            <h5 id="cohort_contact_number">(844) 446 3656</h5>
                         </li>
                         <li class="cohort_item">
                             <button id="cohort_button">Talk To Us</button>
@@ -61,7 +61,7 @@
                             <a class="nav-link" href="#">Corporate Training</a>
                         </li>
                       </ul>
-                        <button class="btn my-2 my-sm-0" type="submit">Apply</button>
+                        <button class="btn my-2 my-sm-0 nav_bar_button" type="submit">Apply</button>
                     </div>
                 </nav>
             </div>
@@ -73,26 +73,26 @@
                 <div id="fixed_note_box">
                     <h2 id="fixed_note_head_text">Discuss Your Funding Options</h2>
                     <p id="fixed_note_p">Schedule a 1:1 call with an Admissions officer to discuss the funding option that is right for you.</p>
-                    <button>Chat with Admissions</button>
+                    <button id="fixed_note_button">Chat with Admissions</button>
                 </div> 
             </div>
         </section>
         <section id="banner_section">
             <div id="banner_container">
-                <h1>Fund Your Future At Coding Dojo</h1>
-                <p id="main_p">When you commit to a big career change, the last thing you should be worrying about is the cost.</p>
+                <h1 id="banner_h1">Fund Your Future At Coding Dojo</h1>
+                <p id="banner_p">When you commit to a big career change, the last thing you should be worrying about is the cost.</p>
             </div>
         </section>
         <section id="popular_methods_section">
             <div id="popular_methods_container">
-                <h2>The 4 Most Popular Funding Methods</h2>
+                <h2 id="popular_methods_h2">The 4 Most Popular Funding Methods</h2>
                 <div class="popular_methods_accordion" id="popular_methods_accordion">
                     <div class="accordion-item">
                         <div class="accordion-header" id="heading_one">
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_one" aria-expanded="false" aria-controls="collapse_one">
                                 <img src="./assets/img/PayInFull.png" id="popular_methods_accordion_piggy" alt="a vector image of a piggy bank">
                                 <div class="accordion_text">
-                                    <h5>Pay in Full</h5>
+                                    <h5 class="accordion_h5">Pay in Full</h5>
                                     <p class="accordion_p">Receive a discount by paying up-front.</p>
                                 </div>
                             </button>
@@ -107,7 +107,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_two" aria-expanded="false" aria-controls="collapse_two">
                                 <img src="./assets/img/InstallmentPlans.png" id="popular_methods_accordion_installment" alt="a vector image of form papers and a pen.">
                                 <div class="accordion_text">
-                                    <h5>Installment Plans</h5>
+                                    <h5 class="accordion_h5">Installment Plans</h5>
                                     <p class="accordion_p">If you don't want to pay all at once.</p>
                                 </div>
                             </button>
@@ -122,7 +122,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_three" aria-expanded="false" aria-controls="collapse_three">
                                 <img src="./assets/img/AscentFinancingLogo.png" id="popular_methods_accordion_ascent" alt="Ascent Financing logo">
                                 <div class="accordion_text">
-                                    <h5>Ascent Financing</h5>
+                                    <h5 class="accordion_h5">Ascent Financing</h5>
                                     <p class="accordion_p">For financing your program.</p>
                                 </div>
                             </button>
@@ -139,7 +139,7 @@
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse_four" aria-expanded="false" aria-controls="collapse_four">
                                 <img src="./assets/img/ClimbCreditLogo.png" id="popular_methods_accordion_climb" alt="Climb Credit logo">
                                 <div class="accordion_text">
-                                    <h5>Climb Credit</h5>
+                                    <h5 class="accordion_h5">Climb Credit</h5>
                                     <p class="accordion_p">For financing your program.</p>
                                 </div>
                             </button>
@@ -154,66 +154,66 @@
         </section>
         <section id="gauge_savings_section">
             <div id="gauge_savings_container">
-                <h2>Gauge Your Potential Savings</h2>
+                <h2 id="gauge_savings_h2">Gauge Your Potential Savings</h2>
                 <img src="./assets/img/Ellipse.png" alt="a blue circle" id="gauge_savings_circle">
-                <ul id="gauge">
-                    <li id="gauge_progress">
-                        <ul id="savings-type-list" class="gauge_group">
+                <ul id="gauge_savings_list">
+                    <li id="gauge_savings_progress_item">
+                        <ul class="gauge_group_list">
                             <li id="early" class="gauge_data gauge_head_text">Early Registration</li>
                             <li id="open" class="gauge_data gauge_head_text">Open House</li>
                             <li id="scholarship" class="gauge_data gauge_head_text">Scholarship</li>
                             <li id="full" class="gauge_data gauge_head_text">Pay in Full</li>
                         </ul>
-                        <ul class="gauge_group">
+                        <ul class="gauge_group_list">
                             <li class="gauge_data value_rectangle active" id="250" data-value="250" data-active="true">$250</li>
                             <li class="gauge_data value_rectangle" id="100" data-value="100" data-active="false">$100</li>
                             <li class="gauge_data value_rectangle" id="1_1500" data-value="1500" data-active="false">$1-1500</li>
                             <li class="gauge_data value_rectangle round_right_border last_savings_value" id="1500" data-value="1500" data-active="false">$1500</li>
                             <li></li>
                         </ul>
-                        <ul class="gauge_group text" id="gauge_text">
+                        <ul class="gauge_group_list text" id="gauge_text">
                             <li class="gauge_data early_text">Pay your deposit within 5 days of your acceptance to Coding Dojo and receive $250 off* your program.<li>
                             <li class="gauge_data open_text">Attend your program’s Open House and unlock $100 off with a unique promotional voucher.</li>
                             <li class="gauge_data scholarship_text">Attend your program’s Open House and unlock $100 off with a unique promotional voucher.</li>
                             <li class="gauge_data full_text">Pay in full upon enrollment and save $1500 off your tuition!</li>
                         </ul>
                     </li>
-                    <p>*Early Registration Discount is only applicable if no other deposit adjustments are applied to the program and the deposit is not covered by a third-party. </p>
+                    <p id="gauge_savings_p">*Early Registration Discount is only applicable if no other deposit adjustments are applied to the program and the deposit is not covered by a third-party. </p>
                 </ul>
                 <img src="./assets/img/bar.png" alt="a vector image of a bar" class="gauge_savings_bar">
-                <h3 id="gauge_saved">You've Saved</h3>
-                <h4 id="total_potential_savings">$250</h4>
+                <h4 id="gauge_savings_saved">You've Saved</h4>
+                <h3 id="gauge_total_potential_savings">$250</h3>
                 <img src="./assets/img/border_cat.png" alt="a vector image of a cat" id="gauge_savings_cat">
             </div> 
         </section>
         <section id="fund_section">
             <div id="fund_container">
-                <h2>How to Fund Your Bootcamp</h2>
-                <div>
-                    <p>Our financing options designed with every student in mind so they can kickstart their career in tech without hassle and worry. There's a funding option for everyone and every Coding Dojo program. </p>
-                    <table class="fund_table">
-                        <thead>
-                            <tr>
-                                <th></th>
-                                <th>Any Coding Dojo Program</th>
+                <h2 id="fund_h2">How to Fund Your Bootcamp</h2>
+                <div id="fund_details">
+                    <p id="fund_p">Our financing options designed with every student in mind so they can kickstart their career in tech without hassle and worry. There's a funding option for everyone and every Coding Dojo program. </p>
+                    <table id="fund_table">
+                        <thead id="fund_table_head">
+                            <tr class="fund_table_row">
+                                <th class="fund_table_row_head"></th>
+                                <th class="fund_table_row_head">Any Coding Dojo Program</th>
                             </tr>
                         </thead>
-                        <tbody>
-                            <tr>
-                                <td class="td_title">Pay in full</td>
-                                <td class="td_data knock">Knock $1500 off the price. 😱</td>
+                        <tbody id="fund_table_body">
+                            <tr class="fund_table_row">
+                                <td class="fund_table_data td_title">Pay in full</td>
+                                <td class="fund_table_data td_data knock">Knock $1500 off the price. 😱</td>
                             </tr>
-                            <tr>
-                                <td class="td_title">Installment Plan</td>
-                                <td class="td_data"><img src="./assets/img/check.png" alt="a vector image of a check"></td>
+                            <tr class="fund_table_row">
+                                <td class="fund_table_data td_title">Installment Plan</td>
+                                <td class="fund_table_data td_data"><img src="./assets/img/check.png" alt="a vector image of a check"></td>
                             </tr>
-                            <tr>
-                                <td class="td_title">Ascent Financing</td>
-                                <td class="td_data"><img src="./assets/img/check.png" alt="a vector image of a check"></td>
+                            <tr class="fund_table_row">
+                                <td class="fund_table_data td_title">Ascent Financing</td>
+                                <td class="fund_table_data td_data"><img src="./assets/img/check.png" alt="a vector image of a check"></td>
                             </tr>
-                            <tr>
-                                <td class="td_title">Climb Credit</td>
-                                <td class="td_data"><img src="./assets/img/check.png" alt="a vector image of a check"></td>
+                            <tr class="fund_table_row">
+                                <td class="fund_table_data td_title">Climb Credit</td>
+                                <td class="fund_table_data td_data"><img src="./assets/img/check.png" alt="a vector image of a check"></td>
                             </tr>
                         </tbody>
                     </table>

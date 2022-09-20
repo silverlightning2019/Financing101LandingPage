@@ -26,7 +26,7 @@
   list-style: none;
   padding: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details .cohort_item .cohort_button {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details .cohort_item #cohort_button {
   background-color: transparent;
   border: 1px solid #05aae1;
   color: #ffffff;
@@ -43,11 +43,11 @@
   margin-left: 230px;
   margin-right: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact img {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact #cohort_phone_icon {
   margin-right: 13px;
   vertical-align: center;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact h5 {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact #cohort_contact_number {
   color: #05aae1;
   font: normal 400 16px/16px 'Proxima Nova';
   letter-spacing: 0.6px;
@@ -62,48 +62,48 @@
   max-width: 1440px;
   padding: 13px 40px 13px 30px;
 }
-* body header #nav_bar_section #nav_bar_container nav {
+* body header #nav_bar_section #nav_bar_container .navbar {
   font: normal 700 16px/19px 'Proxima Nova';
   letter-spacing: 0.4px;
   margin: 0px;
   padding: 0px;
 }
-* body header #nav_bar_section #nav_bar_container nav .navbar-nav .nav-link {
+* body header #nav_bar_section #nav_bar_container .navbar .navbar-nav .nav-link {
   padding: 0px;
 }
-* body header #nav_bar_section #nav_bar_container nav #coding_dojo_logo {
+* body header #nav_bar_section #nav_bar_container .navbar #coding_dojo_logo {
   height: 30px;
   margin-right: 179px;
   width: 99px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse {
   margin: 0px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse li {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse .nav-item {
   align-items: center;
   display: flex;
   margin-left: 0px;
   margin-right: 46px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse li a {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse .nav-item .nav-link {
   color: #ffffff;
   padding: 0px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse li .dropdown_icon {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse .nav-item .dropdown_icon {
   height: 4px;
   margin-left: 10px;
   width: 10px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse li:last-child {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse li:last-child {
   margin-right: 72px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse .dojo {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse .dojo {
   margin-right: 25px;
 }
-* body header #nav_bar_section #nav_bar_container nav .collapse .online {
+* body header #nav_bar_section #nav_bar_container .navbar .collapse .online {
   margin-right: 29px;
 }
-* body header #nav_bar_section #nav_bar_container nav button {
+* body header #nav_bar_section #nav_bar_container .navbar .nav_bar_button {
   background-color: #05aae1;
   color: #ffffff;
   font: normal 700 16px/19.49px 'Proxima Nova';
@@ -151,7 +151,7 @@
   margin-left: 65px;
   width: 270px;
 }
-* body main #fixed_note_section #fixed_note_container #fixed_note_box button {
+* body main #fixed_note_section #fixed_note_container #fixed_note_box #fixed_note_button {
   background: #05aae1;
   border-radius: 2px;
   border: none;
@@ -177,12 +177,12 @@
   padding: 126px 786px 166px 142px;
   position: relative;
 }
-* body main #banner_section #banner_container h1 {
+* body main #banner_section #banner_container #banner_h1 {
   font: normal 700 64px/73.73px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 13px;
 }
-* body main #banner_section #banner_container #main_p {
+* body main #banner_section #banner_container #banner_p {
   font: normal 400 17px/18px 'Proxima Nova';
   letter-spacing: 0.6px;
 }
@@ -192,7 +192,7 @@
   max-width: 1440px;
   padding: 79px 620px 108px 143px;
 }
-* body main #popular_methods_section #popular_methods_container h2 {
+* body main #popular_methods_section #popular_methods_container #popular_methods_h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 0px;
@@ -230,7 +230,7 @@
   color: #333333;
   height: 51.59px;
 }
-* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_h5 {
   font: normal 700 22px/26.8px 'Proxima Nova';
   margin: 0px;
 }
@@ -278,62 +278,62 @@
   position: absolute;
   top: 167px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list {
   list-style: none;
   padding-left: 0px;
   margin-bottom: 0px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item {
   font: normal 700 14px/17.05px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-top: 30px;
   padding: 0px;
   text-align: center;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .gauge_group {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .gauge_group_list {
   align-items: center;
   display: flex;
   padding: 0px;
   list-style: none;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .gauge_group .gauge_data {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .gauge_group_list .gauge_data {
   margin-right: 4px;
   padding-left: 0px;
   width: 130px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .gauge_group .gauge_head_text {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .gauge_group_list .gauge_head_text {
   margin-bottom: 14px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .text {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .text {
   align-items: flex-start;
   display: flex;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .value_rectangle {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .value_rectangle {
   background: rgba(5, 170, 225, 0.3);
   height: 41px;
   padding-left: 0px;
   padding-top: 11px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .active {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .active {
   background-color: #05aae1;
   height: 41px;
   padding-top: 11px;
   padding-left: 0px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .round_right_border {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item .round_right_border {
   border-radius: 0px 15px 15px 0px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress #gauge_text {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item #gauge_text {
   font: normal 400 12px/12px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-top: 22px;
   text-align: left;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress #gauge_text .gauge_data {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_progress_item #gauge_text .gauge_data {
   padding-right: 16px;
   margin-bottom: 84px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge p {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_list #gauge_savings_p {
   font: normal 400 10px/10px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 0px;
@@ -355,7 +355,7 @@
 * body main #gauge_savings_section #gauge_savings_container .gauge_savings_bar.gauge_savings_3350 {
   left: 670px;
 }
-* body main #gauge_savings_section #gauge_savings_container h3 {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_saved {
   font: normal 400 18px/18px 'Proxima Nova';
   height: 24px;
   left: 706.98px;
@@ -365,7 +365,7 @@
   top: 158px;
   width: 130px;
 }
-* body main #gauge_savings_section #gauge_savings_container h4 {
+* body main #gauge_savings_section #gauge_savings_container #gauge_total_potential_savings {
   font: normal 700 26px/31.67px 'Proxima Nova';
   height: 24px;
   left: 706.98px;
@@ -386,15 +386,15 @@
   max-width: 1440px;
   padding: 69px 688px 46px 145px;
 }
-* body main #fund_section #fund_container h2 {
+* body main #fund_section #fund_container #fund_h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
   letter-spacing: 0.6px;
 }
-* body main #fund_section #fund_container div {
+* body main #fund_section #fund_container #fund_details {
   align-items: flex-start;
   display: flex;
 }
-* body main #fund_section #fund_container div p {
+* body main #fund_section #fund_container #fund_details #fund_p {
   font: normal 400 18px/27px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 0px;
@@ -402,22 +402,22 @@
   margin-top: 58px;
   width: 271px;
 }
-* body main #fund_section #fund_container div .fund_table {
+* body main #fund_section #fund_container #fund_details #fund_table {
   color: #333333;
   margin-top: 21px;
   margin-bottom: 0px;
   width: auto;
 }
-* body main #fund_section #fund_container div .fund_table thead,
-* body main #fund_section #fund_container div .fund_table tbody {
+* body main #fund_section #fund_container #fund_details #fund_table #fund_table_head,
+* body main #fund_section #fund_container #fund_details #fund_table #fund_table_body {
   border-color: transparent;
   border-style: none;
   vertical-align: middle;
 }
-* body main #fund_section #fund_container div .fund_table tr {
+* body main #fund_section #fund_container #fund_details #fund_table .fund_table_row {
   padding: 20px 18px;
 }
-* body main #fund_section #fund_container div .fund_table tr th {
+* body main #fund_section #fund_container #fund_details #fund_table .fund_table_row .fund_table_row_head {
   color: #333333;
   font: normal 700 16px/22.4px 'Proxima Nova';
   height: 50px;
@@ -425,24 +425,24 @@
   padding-left: 0px;
   padding-right: 0px;
 }
-* body main #fund_section #fund_container div .fund_table tr td {
+* body main #fund_section #fund_container #fund_details #fund_table .fund_table_row .fund_table_data {
   font: normal 400 16px/23.49px 'Proxima Nova';
   height: 62px;
 }
-* body main #fund_section #fund_container div .fund_table tr .td_title {
+* body main #fund_section #fund_container #fund_details #fund_table .fund_table_row .td_title {
   padding-left: 19px;
   width: 156px;
 }
-* body main #fund_section #fund_container div .fund_table tr .td_data {
+* body main #fund_section #fund_container #fund_details #fund_table .fund_table_row .td_data {
   text-align: center;
   width: 137px;
 }
-* body main #fund_section #fund_container div .fund_table tr .knock {
+* body main #fund_section #fund_container #fund_details #fund_table .fund_table_row .knock {
   font: normal 400 12.5px/15.48px 'Proxima Nova';
   padding: 18px 23.5px 18px 24px;
   width: 85.5px;
 }
-* body main #fund_section #fund_container div .fund_table tbody tr:nth-child(odd) {
+* body main #fund_section #fund_container #fund_details #fund_table #fund_table_body .fund_table_row:nth-child(odd) {
   background: rgba(196, 196, 196, 0.23);
 }
 * body main #when_funding_section {
