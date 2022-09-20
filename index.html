@@ -14,7 +14,7 @@
     <script src="./assets/js/financing_101.js"></script>
 </head>
 <body>
-    <main>
+    <header>
         <section id="cohort_section">
             <div id="cohort_container">
                 <div id="cohort_notes">
@@ -65,7 +65,9 @@
                     </div>
                 </nav>
             </div>
-        </section>  
+        </section>
+    </header>
+    <main>
         <section id="fixed_note_section">
             <div id="fixed_note_container">
                 <div id="fixed_note_box">
@@ -156,17 +158,17 @@
                 <img src="./assets/img/Ellipse.png" alt="a blue circle" id="gauge_savings_circle">
                 <ul id="gauge">
                     <li id="gauge_progress">
-                        <ul class="gauge_group">
+                        <ul id="savings-type-list" class="gauge_group">
                             <li id="early" class="gauge_data gauge_head_text">Early Registration</li>
                             <li id="open" class="gauge_data gauge_head_text">Open House</li>
                             <li id="scholarship" class="gauge_data gauge_head_text">Scholarship</li>
                             <li id="full" class="gauge_data gauge_head_text">Pay in Full</li>
                         </ul>
                         <ul class="gauge_group">
-                            <li class="gauge_data value rectangle active" id="250" data-value="250" data-active="true">$250</li>
-                            <li class="gauge_data value rectangle" id="100" data-value="100" data-active="false">$100</li>
-                            <li class="gauge_data value rectangle" id="1_1500" data-value="1500" data-active="false">$1-1500</li>
-                            <li class="gauge_data value rectangle round_right_border" id="1500" data-value="1500" data-active="false">$1500</li>
+                            <li class="gauge_data value_rectangle active" id="250" data-value="250" data-active="true">$250</li>
+                            <li class="gauge_data value_rectangle" id="100" data-value="100" data-active="false">$100</li>
+                            <li class="gauge_data value_rectangle" id="1_1500" data-value="1500" data-active="false">$1-1500</li>
+                            <li class="gauge_data value_rectangle round_right_border" id="1500" data-value="1500" data-active="false">$1500</li>
                             <li></li>
                         </ul>
                         <ul class="gauge_group text" id="gauge_text">
@@ -180,7 +182,7 @@
                 </ul>
                 <img src="./assets/img/bar.png" alt="a vector image of a bar" id="gauge_savings_bar">
                 <h3 id="gauge_saved">You've Saved</h3>
-                <h4 id="gauge_sum">$250</h4>
+                <h4 id="total_potential_savings">$250</h4>
                 <img src="./assets/img/border_cat.png" alt="a vector image of a cat" id="gauge_savings_cat">
             </div> 
         </section>
@@ -335,6 +337,8 @@
                 </div>
             </div>
         </section>
+    </main>
+    <footer>
         <section id="footer_section">
             <div id="footer_container">
                 <div id="footer_links_and_form">
@@ -388,6 +392,6 @@
                 <img src="./assets/img/Messenger Modal.png" alt="" id="footer_messenger_modal">
             </div>
         </section>
-    </main>
+    </footer>
 </body>
 </html>

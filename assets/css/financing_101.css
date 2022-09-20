@@ -308,7 +308,7 @@
   align-items: flex-start;
   display: flex;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .rectangle {
+* body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .value_rectangle {
   background: rgba(5, 170, 225, 0.3);
   height: 41px;
   padding-left: 0px;
