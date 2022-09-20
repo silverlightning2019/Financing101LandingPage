@@ -22,11 +22,11 @@
   padding: 0px;
   margin: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details li {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details .cohort_item {
   list-style: none;
   padding: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details li button {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details .cohort_item .cohort_button {
   background-color: transparent;
   border: 1px solid #05aae1;
   color: #ffffff;
