@@ -197,65 +197,65 @@
   letter-spacing: 0.6px;
   margin-bottom: 0px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion {
   margin-top: 45px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item {
   filter: drop-shadow(0px 5px 19px rgba(11, 31, 39, 0.15));
   margin-bottom: 18px;
   width: 678px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header {
   margin: 0px;
   padding: 22px 62px 20px 28px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button {
   margin: 0px;
   outline: none;
   padding: 0px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_piggy {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_piggy {
   margin-right: 45px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_installment {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_installment {
   margin-right: 45px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_ascent {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_ascent {
   margin: 15px 23px 20px 8px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_climb {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_climb {
   margin: 28px 28px 38px 18px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button .accordion_text {
   color: #333333;
   height: 51.59px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
   font: normal 700 22px/26.8px 'Proxima Nova';
   margin: 0px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_p {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_p {
   padding: 0px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .collapsing {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .collapsing {
   border-color: transparent;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button:after {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button:after {
   background-image: url("../img/arrow-down-1.png");
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   background-color: #ffffff;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-body {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-body {
   font: normal 400 14px/23.02px 'Proxima Nova';
   letter-spacing: 0.6px;
   padding: 0px 70px 30px 42px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-body p:last-child {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item .accordion-body p:last-child {
   font: normal 400 14px/16.8px 'Proxima Nova';
   letter-spacing: 0.2px;
 }
-* body main #popular_methods_section #popular_methods_container .accordion .accordion-item:last-child {
+* body main #popular_methods_section #popular_methods_container .popular_methods_accordion .accordion-item:last-child {
   margin-bottom: 0px;
 }
 * body main #gauge_savings_section {
@@ -755,6 +755,7 @@
   border-top: 0.5px solid #a5a3a3;
   display: flex;
   padding: 28px 256px 0px 0px;
+  position: relative;
 }
 * body main #footer_section #footer_container #footer_details #footer_contacts {
   margin-right: 398px;
@@ -788,4 +789,20 @@
 * body main #footer_section #footer_container #footer_details #footer_language #language li {
   font: normal 400 12px/37px 'Proxima Nova';
   margin-right: 20px;
+}
+* body main #footer_section #footer_container #footer_details #footer_language #language li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+* body main #footer_section #footer_container #footer_scroll {
+  position: absolute;
+  right: 33px;
+  top: 205px;
+  width: 52px;
+}
+* body main #footer_section #footer_container #footer_messenger_modal {
+  position: absolute;
+  right: 33px;
+  top: 265px;
+  width: 52px;
 }

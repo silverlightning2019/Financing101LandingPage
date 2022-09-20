@@ -47,4 +47,8 @@ $(document).ready(function(){
         gauge.find("#gauge_sum").text('$' +sum);
 
     });
+
+    $("body").on("click","#footer_scroll", function(){
+        $('html,body').scrollTop(0);
+    });
 });
