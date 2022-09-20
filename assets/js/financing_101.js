@@ -83,6 +83,12 @@ $(document).ready(function(){
 
             /** TODO: Update gauge_savings_bar using less max 5 lines only */
             /** do amazing here... */
+            
+            gauge_savings_bar.removeClass("gauge_savings_350 gauge_savings_1850 gauge_savings_3350");
+            //console.log("gauge_savings_"+total_potential_savings);
+            gauge_savings_bar.addClass('gauge_savings_'+ total_potential_savings);
+            
+            // gauge_savings_bar.attr('class', 'gauge_savings_'+ total_potential_savings)
 
             $("#total_potential_savings").text('$'+ total_potential_savings);
 
