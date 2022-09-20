@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="./assets/css/financing_101.css">
     <script src="./assets/bootstrap/js/bootstrap.bundle.js"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="./assets/bootstrap/js/bootstrap.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="./assets/bootstrap/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.js"></script>
+    <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./assets/js/financing_101.js"></script>
 </head>
 <body>
     <main>
@@ -149,26 +150,26 @@
                 </div>
             </div>
         </section>
-        <section id="gauge_savings">
+        <section id="gauge_savings_section">
             <div id="gauge_savings_container">
                 <h2>Gauge Your Potential Savings</h2>
-                <img src="./assets/img/Ellipse.png" alt="a blue circle" id="circle">
+                <img src="./assets/img/Ellipse.png" alt="a blue circle" id="gauge_savings_circle">
                 <ul id="gauge">
                     <li id="gauge_progress">
-                        <ul class="group">
+                        <ul class="gauge_group">
                             <li id="early" class="gauge_data gauge_head_text">Early Registration</li>
                             <li id="open" class="gauge_data gauge_head_text">Open House</li>
                             <li id="scholarship" class="gauge_data gauge_head_text">Scholarship</li>
                             <li id="full" class="gauge_data gauge_head_text">Pay in Full</li>
                         </ul>
-                        <ul class="group">
-                            <li class="gauge_data rectangle">$250</li>
-                            <li class="gauge_data rectangle">$100</li>
-                            <li class="gauge_data rectangle">$1-1500</li>
-                            <li class="gauge_data rectangle round_right_border">$1500</li>
+                        <ul class="gauge_group">
+                            <li class="gauge_data value active" id="250" data-value="250" data-active="true">$250</li>
+                            <li class="gauge_data value rectangle" id="100" data-value="100" data-active="false">$100</li>
+                            <li class="gauge_data value rectangle" id="1_1500" data-value="1500" data-active="false">$1-1500</li>
+                            <li class="gauge_data value rectangle round_right_border" id="1500" data-value="1500" data-active="false">$1500</li>
                             <li></li>
                         </ul>
-                        <ul class="group text" id="gauge_text">
+                        <ul class="gauge_group text" id="gauge_text">
                             <li class="gauge_data early_text">Pay your deposit within 5 days of your acceptance to Coding Dojo and receive $250 off* your program.<li>
                             <li class="gauge_data open_text">Attend your program’s Open House and unlock $100 off with a unique promotional voucher.</li>
                             <li class="gauge_data scholarship_text">Attend your program’s Open House and unlock $100 off with a unique promotional voucher.</li>
@@ -179,7 +180,7 @@
                 </ul>
                 <img src="./assets/img/bar.png" alt="a vector image of a bar" id="bar">
                 <h3 id="saved">You've Saved</h3>
-                <h4>$3,350</h4>
+                <h4 id="sum">$250</h4>
                 <img src="./assets/img/border_cat.png" alt="a vector image of a cat" id="cat">
             </div> 
         </section>

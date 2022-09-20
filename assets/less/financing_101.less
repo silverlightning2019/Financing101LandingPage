@@ -324,7 +324,7 @@
                 }
             }
             
-            #gauge_savings{
+            #gauge_savings_section{
                 background-color: #505170;
                 z-index: -1;
 
@@ -340,7 +340,7 @@
                         letter-spacing: 0.6px;
                     }
 
-                    #circle{
+                    #gauge_savings_circle{
                         left: 132px;
                         position: absolute;
                         top: 167px;
@@ -358,7 +358,7 @@
                             padding: 0px;
                             text-align: center;
                             
-                            .group{
+                            .gauge_group{
                                 align-items: center;
                                 display: flex;
                                 padding: 0px;
@@ -381,6 +381,13 @@
                             }
         
                             .rectangle{
+                                background: rgba(5, 170, 225, 0.3);
+                                height: 41px;
+                                padding-left: 0px;
+                                padding-top: 11px;
+                            }
+
+                            .active{
                                 background-color: #05aae1;
                                 height: 41px;
                                 padding-top: 11px;
@@ -412,7 +419,7 @@
                     }
 
                     #bar{
-                        left: 670px;
+                        left: 270px;
                         position: absolute;
                         top: 162px;
                     }
