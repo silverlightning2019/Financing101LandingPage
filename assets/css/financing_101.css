@@ -6,31 +6,31 @@
   margin: 0px auto;
   position: relative;
 }
-* body main #header {
+* body main #cohort_section {
   background-color: #272634;
 }
-* body main #header #cohort_container {
+* body main #cohort_section #cohort_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 3px 40px 3px 600px;
 }
-* body main #header #cohort_container #cohort_notes {
+* body main #cohort_section #cohort_container #cohort_notes {
   background-color: #272634;
   color: #ffffff;
   font: normal 400 16px/16px 'Proxima Nova';
   letter-spacing: 0.6px;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details {
   align-items: center;
   display: flex;
   padding: 0px;
   margin: 0px;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details li {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details li {
   list-style: none;
   padding: 0px;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details li button {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details li button {
   background-color: transparent;
   border: 1px solid #05aae1;
   color: #ffffff;
@@ -38,76 +38,76 @@
   margin-left: 64px;
   width: 120px;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details #cohort_text {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_text {
   margin-right: 0px;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details #cohort_contact {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact {
   align-items: center;
   display: flex;
   margin-left: 230px;
   margin-right: 0px;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details #cohort_contact img {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact img {
   margin-right: 13px;
   vertical-align: center;
 }
-* body main #header #cohort_container #cohort_notes #cohort_details #cohort_contact h5 {
+* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact h5 {
   color: #05aae1;
   font: normal 400 16px/16px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin: 0px;
   vertical-align: center;
 }
-* body main #nav_bar {
+* body main #nav_bar_section {
   background-color: #1d1f21;
 }
-* body main #nav_bar #nav_container {
+* body main #nav_bar_section #nav_bar_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 13px 40px 13px 30px;
 }
-* body main #nav_bar #nav_container nav {
+* body main #nav_bar_section #nav_bar_container nav {
   font: normal 700 16px/19px 'Proxima Nova';
   letter-spacing: 0.4px;
   margin: 0px;
   padding: 0px;
 }
-* body main #nav_bar #nav_container nav .navbar-nav .nav-link {
+* body main #nav_bar_section #nav_bar_container nav .navbar-nav .nav-link {
   padding: 0px;
 }
-* body main #nav_bar #nav_container nav #coding_dojo_logo {
+* body main #nav_bar_section #nav_bar_container nav #coding_dojo_logo {
   height: 30px;
   margin-right: 179px;
   width: 99px;
 }
-* body main #nav_bar #nav_container nav .collapse {
+* body main #nav_bar_section #nav_bar_container nav .collapse {
   margin: 0px;
 }
-* body main #nav_bar #nav_container nav .collapse li {
+* body main #nav_bar_section #nav_bar_container nav .collapse li {
   align-items: center;
   display: flex;
   margin-left: 0px;
   margin-right: 46px;
 }
-* body main #nav_bar #nav_container nav .collapse li a {
+* body main #nav_bar_section #nav_bar_container nav .collapse li a {
   color: #ffffff;
   padding: 0px;
 }
-* body main #nav_bar #nav_container nav .collapse li .dropdown_icon {
+* body main #nav_bar_section #nav_bar_container nav .collapse li .dropdown_icon {
   height: 4px;
   margin-left: 10px;
   width: 10px;
 }
-* body main #nav_bar #nav_container nav .collapse li:last-child {
+* body main #nav_bar_section #nav_bar_container nav .collapse li:last-child {
   margin-right: 72px;
 }
-* body main #nav_bar #nav_container nav .collapse .dojo {
+* body main #nav_bar_section #nav_bar_container nav .collapse .dojo {
   margin-right: 25px;
 }
-* body main #nav_bar #nav_container nav .collapse .online {
+* body main #nav_bar_section #nav_bar_container nav .collapse .online {
   margin-right: 29px;
 }
-* body main #nav_bar #nav_container nav button {
+* body main #nav_bar_section #nav_bar_container nav button {
   background-color: #05aae1;
   color: #ffffff;
   font: normal 700 16px/19.49px 'Proxima Nova';
@@ -116,14 +116,14 @@
   text-align: center;
   width: 120px;
 }
-* body main #fixed_note {
+* body main #fixed_note_section {
   z-index: -1;
 }
-* body main #fixed_note #fixed_note_container {
+* body main #fixed_note_section #fixed_note_container {
   margin: 0px auto;
   max-width: 1440px;
 }
-* body main #fixed_note #fixed_note_container #fixed_note_box {
+* body main #fixed_note_section #fixed_note_container #fixed_note_box {
   background-color: #ffffff;
   border-radius: 8px;
   box-shadow: 0px 6px 6px rgba(11, 31, 39, 0.08);
@@ -136,7 +136,7 @@
   position: fixed;
   width: 406px;
 }
-* body main #fixed_note #fixed_note_container #fixed_note_box #fixed_note_head_text {
+* body main #fixed_note_section #fixed_note_container #fixed_note_box #fixed_note_head_text {
   font: normal 700 40px/45px 'Proxima Nova';
   height: 154px;
   letter-spacing: 0.6px;
@@ -144,14 +144,14 @@
   margin-top: 51px;
   width: 274px;
 }
-* body main #fixed_note #fixed_note_container #fixed_note_box #fixed_note_p {
+* body main #fixed_note_section #fixed_note_container #fixed_note_box #fixed_note_p {
   font: normal 400 16px/22px 'Proxima Nova';
   height: 61px;
   letter-spacing: 0.3px;
   margin-left: 65px;
   width: 270px;
 }
-* body main #fixed_note #fixed_note_container #fixed_note_box button {
+* body main #fixed_note_section #fixed_note_container #fixed_note_box button {
   background: #05aae1;
   border-radius: 2px;
   border: none;
@@ -165,11 +165,11 @@
   text-align: center;
   width: 271px;
 }
-* body main #banner {
+* body main #banner_section {
   background: url("../img/financing_101_banner.png") no-repeat center;
   background-size: cover;
 }
-* body main #banner #banner_container {
+* body main #banner_section #banner_container {
   color: #ffffff;
   height: 485px;
   margin: 0px auto;
@@ -177,91 +177,85 @@
   padding: 126px 786px 166px 142px;
   position: relative;
 }
-* body main #banner #banner_container h1 {
+* body main #banner_section #banner_container h1 {
   font: normal 700 64px/73.73px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 13px;
 }
-* body main #banner #banner_container #main_p {
+* body main #banner_section #banner_container #main_p {
   font: normal 400 17px/18px 'Proxima Nova';
   letter-spacing: 0.6px;
 }
-* body main #popular_methods #popular_methods_container {
+* body main #popular_methods_section #popular_methods_container {
   background-color: #f8faff;
   margin: 0px auto;
   max-width: 1440px;
   padding: 79px 620px 108px 143px;
 }
-* body main #popular_methods #popular_methods_container h2 {
+* body main #popular_methods_section #popular_methods_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 0px;
 }
-* body main #popular_methods #popular_methods_container .accordion {
+* body main #popular_methods_section #popular_methods_container .accordion {
   margin-top: 45px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item {
   filter: drop-shadow(0px 5px 19px rgba(11, 31, 39, 0.15));
   margin-bottom: 18px;
   width: 678px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header {
   margin: 0px;
   padding: 22px 62px 20px 28px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button {
   margin: 0px;
   outline: none;
   padding: 0px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #piggy {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_piggy {
   margin-right: 45px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #installment {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_installment {
   margin-right: 45px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #ascent {
-  margin-right: 23px;
-  margin-left: 8px;
-  margin-top: 15px;
-  margin-bottom: 20px;
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_ascent {
+  margin: 15px 23px 20px 8px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #climb {
-  margin-right: 28px;
-  margin-left: 18px;
-  margin-top: 28px;
-  margin-bottom: 38px;
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button #popular_methods_accordion_climb {
+  margin: 28px 28px 38px 18px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text {
   color: #333333;
   height: 51.59px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
   font: normal 700 22px/26.8px 'Proxima Nova';
   margin: 0px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_p {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_p {
   padding: 0px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .collapsing {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .collapsing {
   border-color: transparent;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button:after {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button:after {
   background-image: url("../img/arrow-down-1.png");
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   background-color: #ffffff;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-body {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-body {
   font: normal 400 14px/23.02px 'Proxima Nova';
   letter-spacing: 0.6px;
   padding: 0px 70px 30px 42px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item .accordion-body p:last-child {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item .accordion-body p:last-child {
   font: normal 400 14px/16.8px 'Proxima Nova';
   letter-spacing: 0.2px;
 }
-* body main #popular_methods #popular_methods_container .accordion .accordion-item:last-child {
+* body main #popular_methods_section #popular_methods_container .accordion .accordion-item:last-child {
   margin-bottom: 0px;
 }
 * body main #gauge_savings_section {
@@ -269,11 +263,11 @@
   z-index: -1;
 }
 * body main #gauge_savings_section #gauge_savings_container {
+  color: #ffffff;
   margin: 0px auto;
   max-width: 1440px;
-  color: #ffffff;
-  position: relative;
   padding: 62px 602px 40px 146px;
+  position: relative;
 }
 * body main #gauge_savings_section #gauge_savings_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
@@ -303,9 +297,9 @@
   list-style: none;
 }
 * body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .gauge_group .gauge_data {
+  margin-right: 4px;
   padding-left: 0px;
   width: 130px;
-  margin-right: 4px;
 }
 * body main #gauge_savings_section #gauge_savings_container #gauge #gauge_progress .gauge_group .gauge_head_text {
   margin-bottom: 14px;
@@ -344,7 +338,7 @@
   letter-spacing: 0.6px;
   margin-bottom: 0px;
 }
-* body main #gauge_savings_section #gauge_savings_container #bar {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_bar {
   left: 270px;
   position: absolute;
   top: 162px;
@@ -369,26 +363,26 @@
   top: 182px;
   width: 130px;
 }
-* body main #gauge_savings_section #gauge_savings_container #cat {
+* body main #gauge_savings_section #gauge_savings_container #gauge_savings_cat {
   left: 792px;
   position: absolute;
   top: 439px;
 }
-* body main #fund #fund_container {
+* body main #fund_section #fund_container {
   background-color: #f8faff;
   margin: 0px auto;
   max-width: 1440px;
   padding: 69px 688px 46px 145px;
 }
-* body main #fund #fund_container h2 {
+* body main #fund_section #fund_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
   letter-spacing: 0.6px;
 }
-* body main #fund #fund_container div {
+* body main #fund_section #fund_container div {
   align-items: flex-start;
   display: flex;
 }
-* body main #fund #fund_container div p {
+* body main #fund_section #fund_container div p {
   font: normal 400 18px/27px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 0px;
@@ -396,22 +390,22 @@
   margin-top: 58px;
   width: 271px;
 }
-* body main #fund #fund_container div table {
+* body main #fund_section #fund_container div .fund_table {
   color: #333333;
   margin-top: 21px;
   margin-bottom: 0px;
   width: auto;
 }
-* body main #fund #fund_container div table thead,
-* body main #fund #fund_container div table tbody {
+* body main #fund_section #fund_container div .fund_table thead,
+* body main #fund_section #fund_container div .fund_table tbody {
   border-color: transparent;
   border-style: none;
   vertical-align: middle;
 }
-* body main #fund #fund_container div table tr {
+* body main #fund_section #fund_container div .fund_table tr {
   padding: 20px 18px;
 }
-* body main #fund #fund_container div table tr th {
+* body main #fund_section #fund_container div .fund_table tr th {
   color: #333333;
   font: normal 700 16px/22.4px 'Proxima Nova';
   height: 50px;
@@ -419,314 +413,313 @@
   padding-left: 0px;
   padding-right: 0px;
 }
-* body main #fund #fund_container div table tr td {
+* body main #fund_section #fund_container div .fund_table tr td {
   font: normal 400 16px/23.49px 'Proxima Nova';
   height: 62px;
 }
-* body main #fund #fund_container div table tr .td_title {
+* body main #fund_section #fund_container div .fund_table tr .td_title {
   padding-left: 19px;
   width: 156px;
 }
-* body main #fund #fund_container div table tr .td_data {
+* body main #fund_section #fund_container div .fund_table tr .td_data {
   text-align: center;
   width: 137px;
 }
-* body main #fund #fund_container div table tr .knock {
+* body main #fund_section #fund_container div .fund_table tr .knock {
   font: normal 400 12.5px/15.48px 'Proxima Nova';
   padding: 18px 23.5px 18px 24px;
   width: 85.5px;
 }
-* body main #fund #fund_container div table tbody tr:nth-child(odd) {
+* body main #fund_section #fund_container div .fund_table tbody tr:nth-child(odd) {
   background: rgba(196, 196, 196, 0.23);
 }
-* body main #when_funding {
+* body main #when_funding_section {
   background-color: #505170;
 }
-* body main #when_funding #when_funding_container {
+* body main #when_funding_section #when_funding_container {
   color: #ffffff;
   height: 1218px;
   margin: 0px auto;
   max-width: 1440px;
   padding: 77px 653px 66px 146px;
 }
-* body main #when_funding #when_funding_container h2 {
+* body main #when_funding_section #when_funding_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 28px;
 }
-* body main #when_funding #when_funding_container p {
+* body main #when_funding_section #when_funding_container p {
   font: normal 400 18px/27px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 26px;
 }
-* body main #when_funding #when_funding_container ul {
+* body main #when_funding_section #when_funding_container #when_funding_list {
   margin-bottom: 0px;
   padding: 0px;
 }
-* body main #when_funding #when_funding_container ul li {
+* body main #when_funding_section #when_funding_container #when_funding_list li {
   align-items: flex-start;
   display: flex;
   list-style: none;
   padding: 0px;
 }
-* body main #when_funding #when_funding_container ul li #admin {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_admin {
   margin-bottom: 34px;
 }
-* body main #when_funding #when_funding_container ul li #study {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_study {
   margin-bottom: 50px;
   margin-left: 10px;
 }
-* body main #when_funding #when_funding_container ul li #coinbank {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_coinbank {
   margin-bottom: 26px;
   margin-left: 20px;
 }
-* body main #when_funding #when_funding_container ul li #coding {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_coding {
   margin-left: 20px;
 }
-* body main #when_funding #when_funding_container ul li div h5 {
+* body main #when_funding_section #when_funding_container #when_funding_list li div h5 {
   font: normal 700 20px/24.36px 'Proxima Nova';
   height: 35px;
   letter-spacing: 0.6px;
   margin-bottom: 0px;
 }
-* body main #when_funding #when_funding_container ul li div p {
+* body main #when_funding_section #when_funding_container #when_funding_list li div p {
   font: normal 400 18px/27px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-left: 0px;
   margin-bottom: 0px;
 }
-* body main #when_funding #when_funding_container ul li #speak {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_speak {
   margin-left: 44.5px;
   margin-top: 16px;
 }
-* body main #when_funding #when_funding_container ul li #apply {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_apply {
   margin-left: 52px;
   margin-top: 23px;
 }
-* body main #when_funding #when_funding_container ul li #secure {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_secure {
   margin-left: 62.61px;
   margin-top: 21px;
 }
-* body main #when_funding #when_funding_container ul li #start {
+* body main #when_funding_section #when_funding_container #when_funding_list li #when_funding_start {
   margin-left: 56px;
   margin-top: 19px;
 }
-* body main #top_names {
+* body main #top_names_section {
   background-color: #f8faff;
 }
-* body main #top_names #top_names_container {
+* body main #top_names_section #top_names_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 87px 600px 88px 144px;
 }
-* body main #top_names #top_names_container h2 {
+* body main #top_names_section #top_names_container h2 {
   font: normal 700 40px/48.72px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 40px;
 }
-* body main #top_names #top_names_container ul {
+* body main #top_names_section #top_names_container #top_names_list {
   margin: 0px;
   padding: 0px;
 }
-* body main #top_names #top_names_container ul li {
+* body main #top_names_section #top_names_container #top_names_list li {
   display: inline;
   list-style: none;
   margin-bottom: 37px;
   padding: 0px;
 }
-* body main #top_names #top_names_container ul img {
+* body main #top_names_section #top_names_container #top_names_list img {
   margin-bottom: 37px;
 }
-* body main #top_names #top_names_container ul #google {
+* body main #top_names_section #top_names_container #top_names_list #top_names_google {
   margin-right: 28px;
-  margin-bottom: 37px;
 }
-* body main #top_names #top_names_container ul #amazon {
+* body main #top_names_section #top_names_container #top_names_list #top_names_amazon {
   margin-right: 34.17px;
 }
-* body main #top_names #top_names_container ul #airbnb {
+* body main #top_names_section #top_names_container #top_names_list #top_names_airbnb {
   margin-right: 63px;
 }
-* body main #top_names #top_names_container ul #dropbox {
+* body main #top_names_section #top_names_container #top_names_list #top_names_dropbox {
   margin-right: 63px;
 }
-* body main #top_names #top_names_container ul #uber {
+* body main #top_names_section #top_names_container #top_names_list #top_names_uber {
   margin-right: 57px;
 }
-* body main #top_names #top_names_container ul #slack {
+* body main #top_names_section #top_names_container #top_names_list #top_names_slack {
   margin-right: 59px;
 }
-* body main #top_names #top_names_container ul #twitter {
+* body main #top_names_section #top_names_container #top_names_list #top_names_twitter {
   margin-right: 42px;
 }
-* body main #top_names #top_names_container ul #facebook {
+* body main #top_names_section #top_names_container #top_names_list #top_names_facebook {
   margin-right: 44px;
 }
-* body main #quote {
+* body main #quote_section {
   background-color: #f8faff;
 }
-* body main #quote #quote_container {
-  position: relative;
+* body main #quote_section #quote_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 71px 602px 141px 162px;
+  position: relative;
 }
-* body main #quote #quote_container h3 {
+* body main #quote_section #quote_container h3 {
   color: #333333;
   font: normal 400 31px/31px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 42px;
 }
-* body main #quote #quote_container div {
+* body main #quote_section #quote_container div {
   align-items: flex-start;
   display: flex;
 }
-* body main #quote #quote_container div img {
+* body main #quote_section #quote_container div img {
   margin-right: 17px;
 }
-* body main #quote #quote_container div ul {
+* body main #quote_section #quote_container div #quote_list {
   list-style: none;
   margin-bottom: 0px;
   padding-left: 0px;
 }
-* body main #quote #quote_container div ul h5 {
+* body main #quote_section #quote_container div #quote_list h5 {
   color: #333333;
   font: normal 700 19px/23.14px 'Proxima Nova';
   height: 22px;
   margin-bottom: 3px;
 }
-* body main #quote #quote_container div ul p {
+* body main #quote_section #quote_container div #quote_list p {
   color: #333333;
   font: normal 400 16px/22.4px 'Proxima Nova';
   height: 22px;
   margin-bottom: 0px;
 }
-* body main #quote #quote_container #quotation {
+* body main #quote_section #quote_container #quotation {
   left: 381px;
+  margin: 0px;
   position: absolute;
   top: 139px;
-  margin: 0px;
 }
-* body main #faqs {
+* body main #faqs_section {
   background-color: #f8faff;
 }
-* body main #faqs #faqs_container {
+* body main #faqs_section #faqs_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 75px 602px 108px 152px;
 }
-* body main #faqs #faqs_container h2 {
+* body main #faqs_section #faqs_container h2 {
   color: #333333;
   font: normal 700 32px/38.98px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 50px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item {
+* body main #faqs_section #faqs_container .accordion .accordion-item {
   box-shadow: 0px 6px 8px rgba(42, 104, 129, 0.06);
   filter: drop-shadow(0px 5px 19px rgba(11, 31, 39, 0.15));
   margin-top: 19px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header {
   padding: 38px 47px 38px 64px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header h4 {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header h4 {
   color: #2c393e;
   font: normal 700 20px/24.36px 'Proxima Nova';
   margin-bottom: 0px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header .accordion-button {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header .accordion-button {
+  align-items: center;
+  display: flex;
   margin: 0px;
   padding: 0px;
-  display: flex;
-  align-items: center;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text {
   color: #333333;
   height: 51.59px;
   vertical-align: middle;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text h5 {
   font: normal 700 22px/26.8px 'Proxima Nova';
   margin: 0px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_p {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header .accordion-button .accordion_text .accordion_p {
   padding: 0px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header .accordion-button:after {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header .accordion-button:after {
   background-image: url("../img/arrow-down-1.png");
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-header .accordion-button:not(.collapsed) {
   background-color: #ffffff;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-body {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-body {
   padding: 0px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item .accordion-body p {
+* body main #faqs_section #faqs_container .accordion .accordion-item .accordion-body p {
   font: normal 400 16px/23.02px 'Proxima Nova';
   height: 208px;
   letter-spacing: 0.6px;
   margin-left: 68px;
   width: 505.98px;
 }
-* body main #faqs #faqs_container .accordion .accordion-item:first-child {
+* body main #faqs_section #faqs_container .accordion .accordion-item:first-child {
   margin-top: 0px;
 }
-* body main #footer {
+* body main #footer_section {
   background-color: #1e1e29;
   position: relative;
 }
-* body main #footer #footer_container {
+* body main #footer_section #footer_container {
+  color: #ffffff;
   margin: 0px auto;
   max-width: 1440px;
   padding: 68px 145px 68px 134px;
-  color: #ffffff;
 }
-* body main #footer #footer_container #footer_links_and_form {
+* body main #footer_section #footer_container #footer_links_and_form {
   align-items: flex-start;
   display: flex;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links {
   align-items: flex-start;
   display: flex;
   margin-bottom: 50px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links ul {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links ul {
   list-style: none;
   padding-left: 0px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links ul li:first-child {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links ul li:first-child {
   font: normal 700 12px/30px 'Proxima Nova';
   margin-bottom: 24px;
   text-transform: uppercase;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links ul li {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links ul li {
   font: normal 400 14px/37px 'Proxima Nova';
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links ul li a {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links ul li a {
   text-decoration: none;
   color: #ffffff;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links #partnerships {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_partnerships {
   margin-right: 50px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links #resources {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_resources {
   margin-right: 72px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_links #campuses {
+* body main #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_campuses {
   margin-right: 262px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form {
   align-items: flex-start;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form h4 {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form h4 {
   font: normal 400 16px/28px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 22px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form form {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form form {
   margin-bottom: 20px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form form input {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form form input {
   background: #ffffff;
   border-radius: 8px;
   font: normal 400 14px/20px 'Proxima Nova';
@@ -736,7 +729,7 @@
   vertical-align: middle;
   width: 285px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form form button {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form form button {
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid #ffffff;
@@ -748,51 +741,51 @@
   text-align: center;
   vertical-align: middle;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form p {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form p {
   font: normal 400 10px/17px 'Proxima Nova';
   padding-bottom: 0px;
   width: 406px;
 }
-* body main #footer #footer_container #footer_links_and_form #footer_form p a {
+* body main #footer_section #footer_container #footer_links_and_form #footer_form p a {
   color: #05a9e1;
   text-decoration: none;
 }
-* body main #footer #footer_container #footer_details {
+* body main #footer_section #footer_container #footer_details {
   align-items: center;
   border-top: 0.5px solid #a5a3a3;
   display: flex;
   padding: 28px 256px 0px 0px;
 }
-* body main #footer #footer_container #footer_details #footer_contacts {
+* body main #footer_section #footer_container #footer_details #footer_contacts {
   margin-right: 398px;
   vertical-align: middle;
 }
-* body main #footer #footer_container #footer_details #footer_contacts h3 {
+* body main #footer_section #footer_container #footer_details #footer_contacts h3 {
   font: normal 400 20px/27px 'Proxima Nova';
 }
-* body main #footer #footer_container #footer_details #footer_contacts h3 span {
+* body main #footer_section #footer_container #footer_details #footer_contacts h3 span {
   font: normal 700 20px/27px 'Proxima Nova';
 }
-* body main #footer #footer_container #footer_details #footer_contacts h4 {
+* body main #footer_section #footer_container #footer_details #footer_contacts h4 {
   font: normal 400 16px/27px 'Proxima Nova';
 }
-* body main #footer #footer_container #footer_details #footer_contacts h4 a {
+* body main #footer_section #footer_container #footer_details #footer_contacts h4 a {
   color: #05a9e1;
 }
-* body main #footer #footer_container #footer_details #footer_language {
+* body main #footer_section #footer_container #footer_details #footer_language {
   vertical-align: middle;
 }
-* body main #footer #footer_container #footer_details #footer_language #language {
+* body main #footer_section #footer_container #footer_details #footer_language #language {
+  align-items: center;
+  display: flex;
   list-style: none;
   padding-left: 0px;
-  display: flex;
-  align-items: center;
 }
-* body main #footer #footer_container #footer_details #footer_language #language li:first-child {
+* body main #footer_section #footer_container #footer_details #footer_language #language li:first-child {
   font: normal 700 12px/30px 'Proxima Nova';
   text-transform: uppercase;
 }
-* body main #footer #footer_container #footer_details #footer_language #language li {
+* body main #footer_section #footer_container #footer_details #footer_language #language li {
   font: normal 400 12px/37px 'Proxima Nova';
   margin-right: 20px;
 }
