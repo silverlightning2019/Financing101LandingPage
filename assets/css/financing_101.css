@@ -2,35 +2,31 @@
   background-color: #f8faff;
   margin: 0px auto;
 }
-* body main {
-  margin: 0px auto;
-  position: relative;
-}
-* body main #cohort_section {
+* body header #cohort_section {
   background-color: #272634;
 }
-* body main #cohort_section #cohort_container {
+* body header #cohort_section #cohort_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 3px 40px 3px 600px;
 }
-* body main #cohort_section #cohort_container #cohort_notes {
+* body header #cohort_section #cohort_container #cohort_notes {
   background-color: #272634;
   color: #ffffff;
   font: normal 400 16px/16px 'Proxima Nova';
   letter-spacing: 0.6px;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details {
   align-items: center;
   display: flex;
   padding: 0px;
   margin: 0px;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details li {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details li {
   list-style: none;
   padding: 0px;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details li button {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details li button {
   background-color: transparent;
   border: 1px solid #05aae1;
   color: #ffffff;
@@ -38,76 +34,76 @@
   margin-left: 64px;
   width: 120px;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_text {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_text {
   margin-right: 0px;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact {
   align-items: center;
   display: flex;
   margin-left: 230px;
   margin-right: 0px;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact img {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact img {
   margin-right: 13px;
   vertical-align: center;
 }
-* body main #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact h5 {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact h5 {
   color: #05aae1;
   font: normal 400 16px/16px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin: 0px;
   vertical-align: center;
 }
-* body main #nav_bar_section {
+* body header #nav_bar_section {
   background-color: #1d1f21;
 }
-* body main #nav_bar_section #nav_bar_container {
+* body header #nav_bar_section #nav_bar_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 13px 40px 13px 30px;
 }
-* body main #nav_bar_section #nav_bar_container nav {
+* body header #nav_bar_section #nav_bar_container nav {
   font: normal 700 16px/19px 'Proxima Nova';
   letter-spacing: 0.4px;
   margin: 0px;
   padding: 0px;
 }
-* body main #nav_bar_section #nav_bar_container nav .navbar-nav .nav-link {
+* body header #nav_bar_section #nav_bar_container nav .navbar-nav .nav-link {
   padding: 0px;
 }
-* body main #nav_bar_section #nav_bar_container nav #coding_dojo_logo {
+* body header #nav_bar_section #nav_bar_container nav #coding_dojo_logo {
   height: 30px;
   margin-right: 179px;
   width: 99px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse {
+* body header #nav_bar_section #nav_bar_container nav .collapse {
   margin: 0px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse li {
+* body header #nav_bar_section #nav_bar_container nav .collapse li {
   align-items: center;
   display: flex;
   margin-left: 0px;
   margin-right: 46px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse li a {
+* body header #nav_bar_section #nav_bar_container nav .collapse li a {
   color: #ffffff;
   padding: 0px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse li .dropdown_icon {
+* body header #nav_bar_section #nav_bar_container nav .collapse li .dropdown_icon {
   height: 4px;
   margin-left: 10px;
   width: 10px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse li:last-child {
+* body header #nav_bar_section #nav_bar_container nav .collapse li:last-child {
   margin-right: 72px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse .dojo {
+* body header #nav_bar_section #nav_bar_container nav .collapse .dojo {
   margin-right: 25px;
 }
-* body main #nav_bar_section #nav_bar_container nav .collapse .online {
+* body header #nav_bar_section #nav_bar_container nav .collapse .online {
   margin-right: 29px;
 }
-* body main #nav_bar_section #nav_bar_container nav button {
+* body header #nav_bar_section #nav_bar_container nav button {
   background-color: #05aae1;
   color: #ffffff;
   font: normal 700 16px/19.49px 'Proxima Nova';
@@ -115,6 +111,10 @@
   padding: 0px;
   text-align: center;
   width: 120px;
+}
+* body main {
+  margin: 0px auto;
+  position: relative;
 }
 * body main #fixed_note_section {
   z-index: -1;
@@ -338,8 +338,28 @@
   letter-spacing: 0.6px;
   margin-bottom: 0px;
 }
-* body main #gauge_savings_section #gauge_savings_container #gauge_savings_bar {
+* body main #gauge_savings_section #gauge_savings_container .gauge_savings_bar {
   left: 270px;
+  position: absolute;
+  top: 162px;
+}
+* body main #gauge_savings_section #gauge_savings_container .gauge_savings_250 {
+  left: 270px;
+  position: absolute;
+  top: 162px;
+}
+* body main #gauge_savings_section #gauge_savings_container .gauge_savings_350 {
+  left: 405px;
+  position: absolute;
+  top: 162px;
+}
+* body main #gauge_savings_section #gauge_savings_container .gauge_savings_1850 {
+  left: 538px;
+  position: absolute;
+  top: 162px;
+}
+* body main #gauge_savings_section #gauge_savings_container .gauge_savings_3350 {
+  left: 670px;
   position: absolute;
   top: 162px;
 }
@@ -664,62 +684,62 @@
 * body main #faqs_section #faqs_container .accordion .accordion-item:first-child {
   margin-top: 0px;
 }
-* body main #footer_section {
+* body footer #footer_section {
   background-color: #1e1e29;
   position: relative;
 }
-* body main #footer_section #footer_container {
+* body footer #footer_section #footer_container {
   color: #ffffff;
   margin: 0px auto;
   max-width: 1440px;
   padding: 68px 145px 68px 134px;
 }
-* body main #footer_section #footer_container #footer_links_and_form {
+* body footer #footer_section #footer_container #footer_links_and_form {
   align-items: flex-start;
   display: flex;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links {
   align-items: flex-start;
   display: flex;
   margin-bottom: 50px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links ul {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links ul {
   list-style: none;
   padding-left: 0px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links ul li:first-child {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links ul li:first-child {
   font: normal 700 12px/30px 'Proxima Nova';
   margin-bottom: 24px;
   text-transform: uppercase;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links ul li {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links ul li {
   font: normal 400 14px/37px 'Proxima Nova';
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links ul li a {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links ul li a {
   text-decoration: none;
   color: #ffffff;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_partnerships {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_partnerships {
   margin-right: 50px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_resources {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_resources {
   margin-right: 72px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_campuses {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_links #footer_list_campuses {
   margin-right: 262px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form {
   align-items: flex-start;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form h4 {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form h4 {
   font: normal 400 16px/28px 'Proxima Nova';
   letter-spacing: 0.6px;
   margin-bottom: 22px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form form {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form form {
   margin-bottom: 20px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form form input {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form form input {
   background: #ffffff;
   border-radius: 8px;
   font: normal 400 14px/20px 'Proxima Nova';
@@ -729,7 +749,7 @@
   vertical-align: middle;
   width: 285px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form form button {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form form button {
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid #ffffff;
@@ -741,66 +761,66 @@
   text-align: center;
   vertical-align: middle;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form p {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form p {
   font: normal 400 10px/17px 'Proxima Nova';
   padding-bottom: 0px;
   width: 406px;
 }
-* body main #footer_section #footer_container #footer_links_and_form #footer_form p a {
+* body footer #footer_section #footer_container #footer_links_and_form #footer_form p a {
   color: #05a9e1;
   text-decoration: none;
 }
-* body main #footer_section #footer_container #footer_details {
+* body footer #footer_section #footer_container #footer_details {
   align-items: center;
   border-top: 0.5px solid #a5a3a3;
   display: flex;
   padding: 28px 256px 0px 0px;
   position: relative;
 }
-* body main #footer_section #footer_container #footer_details #footer_contacts {
+* body footer #footer_section #footer_container #footer_details #footer_contacts {
   margin-right: 398px;
   vertical-align: middle;
 }
-* body main #footer_section #footer_container #footer_details #footer_contacts h3 {
+* body footer #footer_section #footer_container #footer_details #footer_contacts h3 {
   font: normal 400 20px/27px 'Proxima Nova';
 }
-* body main #footer_section #footer_container #footer_details #footer_contacts h3 span {
+* body footer #footer_section #footer_container #footer_details #footer_contacts h3 span {
   font: normal 700 20px/27px 'Proxima Nova';
 }
-* body main #footer_section #footer_container #footer_details #footer_contacts h4 {
+* body footer #footer_section #footer_container #footer_details #footer_contacts h4 {
   font: normal 400 16px/27px 'Proxima Nova';
 }
-* body main #footer_section #footer_container #footer_details #footer_contacts h4 a {
+* body footer #footer_section #footer_container #footer_details #footer_contacts h4 a {
   color: #05a9e1;
 }
-* body main #footer_section #footer_container #footer_details #footer_language {
+* body footer #footer_section #footer_container #footer_details #footer_language {
   vertical-align: middle;
 }
-* body main #footer_section #footer_container #footer_details #footer_language #language {
+* body footer #footer_section #footer_container #footer_details #footer_language #language {
   align-items: center;
   display: flex;
   list-style: none;
   padding-left: 0px;
 }
-* body main #footer_section #footer_container #footer_details #footer_language #language li:first-child {
+* body footer #footer_section #footer_container #footer_details #footer_language #language li:first-child {
   font: normal 700 12px/30px 'Proxima Nova';
   text-transform: uppercase;
 }
-* body main #footer_section #footer_container #footer_details #footer_language #language li {
+* body footer #footer_section #footer_container #footer_details #footer_language #language li {
   font: normal 400 12px/37px 'Proxima Nova';
   margin-right: 20px;
 }
-* body main #footer_section #footer_container #footer_details #footer_language #language li a {
+* body footer #footer_section #footer_container #footer_details #footer_language #language li a {
   color: #ffffff;
   text-decoration: none;
 }
-* body main #footer_section #footer_container #footer_scroll {
+* body footer #footer_section #footer_container #footer_scroll {
   position: absolute;
   right: 33px;
   top: 205px;
   width: 52px;
 }
-* body main #footer_section #footer_container #footer_messenger_modal {
+* body footer #footer_section #footer_container #footer_messenger_modal {
   position: absolute;
   right: 33px;
   top: 265px;
