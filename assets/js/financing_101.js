@@ -1,6 +1,6 @@
 /** 
 *   DOCU:
-*   Last updated at: September 19, 2022
+*   Last updated at: September 20, 2022
 *   @author Silver
 */
 
@@ -8,12 +8,21 @@ $(document).ready(function(){
     
     $("body").on("click",".rectangle", function(){
         let button = $(this);
+        let gauge = $("#gauge_savings_container")
         let sum = 0;
 
+        
 
-        button.toggleClass("active");
-        button.find().toggleClass("active");
-        button.attr('data-active', $(this).attr('data-active')==='true'?'false':'true');
+        if(button.attr('data-active')==='true'){
+            button.nextAll().removeClass("active");
+            button.nextAll().attr('data-active','false');
+        }
+        else{
+            button.addClass("active");
+            button.prevAll().addClass("active");
+            button.attr('data-active','true');
+            button.prevAll().attr('data-active','true');
+        }
         
         $(".value[data-active!='false']").each(function(){
             let button = $(this);
@@ -21,23 +30,23 @@ $(document).ready(function(){
             sum += parseFloat(values);
         });
 
-        if($("#gauge_savings_container").find("#250").attr('data-active')==='true'){
-            $("#gauge_savings_container").find("#bar").css('left','270px');
+        if(gauge.find("#250").attr('data-active')==='true'){
+            gauge.find("#bar").css('left','270px');
         }
 
-        if($("#gauge_savings_container").find("#100").attr('data-active')==='true'){
-            $("#gauge_savings_container").find("#bar").css('left','405px');
+        if(gauge.find("#100").attr('data-active')==='true'){
+            gauge.find("#bar").css('left','405px');
         }
 
-        if($("#gauge_savings_container").find("#1_1500").attr('data-active')==='true'){
-            $("#gauge_savings_container").find("#bar").css('left','538px');
+        if(gauge.find("#1_1500").attr('data-active')==='true'){
+            gauge.find("#bar").css('left','538px');
         }
 
-        if($("#gauge_savings_container").find("#1500").attr('data-active')==='true'){
-            $("#gauge_savings_container").find("#bar").css('left','670px');
+        if(gauge.find("#1500").attr('data-active')==='true'){
+            gauge.find("#bar").css('left','670px');
         }
 
-        $("#gauge_savings_container").find("#sum").text('$' +sum);
+        gauge.find("#sum").text('$' +sum);
 
     });
 });
