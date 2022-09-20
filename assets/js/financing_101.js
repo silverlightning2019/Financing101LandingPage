@@ -13,7 +13,7 @@ $(document).ready(function(){
             // let gauge = $("#gauge_savings_container");
             let gauge_savings_container = $("#gauge_savings_container");
             // let gauge_bar = gauge.find("#gauge_savings_bar");
-            let gauge_savings_bar = $("#gauge_savings_bar");
+            let gauge_savings_bar = $(".gauge_savings_bar");
             // let sum = 0;
             let total_potential_savings = 0;
             
@@ -45,7 +45,6 @@ $(document).ready(function(){
                 total_potential_savings += parseFloat(values);
             });
 
-            /** TODO: Use .addClass() instead of .css(); Update the LESS file accordingly */
             // if(gauge_savings_container.find("#250").attr('data-active')==='true'){
             //     gauge_savings_bar.css('left','270px');
             // }
@@ -61,6 +60,29 @@ $(document).ready(function(){
             // if(gauge_savings_container.find("#1500").attr('data-active')==='true'){
             //     gauge_savings_bar.css('left','670px');
             // }
+            
+            /** TODO: Use .addClass() instead of .css(); Update the LESS file accordingly */
+            // if(gauge_savings_container.find("#250").hasClass("active")){
+            //     gauge_savings_bar.addClass("gauge_savings_250");
+            //     gauge_savings_bar.removeClass("gauge_savings_350 gauge_savings_1850 gauge_savings_3350");
+            // }
+
+            // if(gauge_savings_container.find("#100").hasClass("active")){
+            //     gauge_savings_bar.addClass("gauge_savings_350");
+            //     gauge_savings_bar.removeClass("gauge_savings_1850 gauge_savings_3350");
+            // }
+
+            // if(gauge_savings_container.find("#1_1500").hasClass("active")){
+            //     gauge_savings_bar.addClass("gauge_savings_1850");
+            //     gauge_savings_bar.removeClass("gauge_savings_3350");
+            // }
+
+            // if(gauge_savings_container.find("#1500").hasClass("active")){
+            //     gauge_savings_bar.addClass("gauge_savings_3350");
+            // }
+
+            /** TODO: Update gauge_savings_bar using less max 5 lines only */
+            /** do amazing here... */
 
             $("#total_potential_savings").text('$'+ total_potential_savings);
 
