@@ -14,7 +14,7 @@
   background-color: #272634;
   color: #ffffff;
   font: normal 400 16px/16px 'Proxima Nova';
-  letter-spacing: 0.6px;
+  letter_spacing: 0.6px;
 }
 * body header #cohort_section #cohort_container #cohort_notes #cohort_details {
   align-items: center;
@@ -50,7 +50,7 @@
 * body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact #cohort_contact_number {
   color: #05aae1;
   font: normal 400 16px/16px 'Proxima Nova';
-  letter-spacing: 0.6px;
+  letter_spacing: 0.6px;
   margin: 0px;
   vertical-align: center;
 }
@@ -144,7 +144,7 @@
   margin-top: 51px;
   width: 274px;
 }
-* body main #fixed_note_section #fixed_note_container #fixed_note_box #fixed_note_p {
+* body main #fixed_note_section #fixed_note_container #fixed_note_box #fixed_note_text {
   font: normal 400 16px/22px 'Proxima Nova';
   height: 61px;
   letter-spacing: 0.3px;

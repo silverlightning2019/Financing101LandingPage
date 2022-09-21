@@ -1,4 +1,8 @@
 *{
+    .font(){
+        font: normal 400 16px/16px 'Proxima Nova';
+        letter_spacing: 0.6px;
+    }
 
     body{
         background-color: #f8faff;
@@ -17,8 +21,7 @@
                     #cohort_notes{
                         background-color: #272634;
                         color: #ffffff;
-                        font: normal 400 16px/16px 'Proxima Nova';
-                        letter-spacing: 0.6px;
+                        .font();
 
                         #cohort_details{
                             align-items: center;
@@ -57,8 +60,7 @@
 
                                 #cohort_contact_number{
                                     color: #05aae1;
-                                    font: normal 400 16px/16px 'Proxima Nova';
-                                    letter-spacing: 0.6px;
+                                    .font();
                                     margin: 0px;
                                     vertical-align: center;
                                 }
@@ -176,7 +178,7 @@
                             width: 274px;
                         }
     
-                        #fixed_note_p{
+                        #fixed_note_text{
                             font: normal 400 16px/22px 'Proxima Nova';
                             height:61px;
                             letter-spacing: 0.3px;
