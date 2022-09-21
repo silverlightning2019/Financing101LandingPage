@@ -24,7 +24,7 @@ $(document).ready(function(){
             gauge_savings_bar.removeClass("gauge_savings_350 gauge_savings_1850 gauge_savings_3350");
             gauge_savings_bar.addClass('gauge_savings_'+ total_potential_savings);
 
-            $("#total_potential_savings").text('$'+ total_potential_savings);
+            $("#gauge_total_potential_savings").text('$'+ total_potential_savings);
         })
         .on("click","#footer_scroll", function(){
             $('html,body').scrollTop(0);
