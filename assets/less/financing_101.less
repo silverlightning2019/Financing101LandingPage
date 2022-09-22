@@ -1,5 +1,5 @@
 *{
-    .font(){
+    .font_16(){
         font: normal 400 16px/16px 'Proxima Nova';
         letter_spacing: 0.6px;
     }
@@ -21,9 +21,9 @@
                     #cohort_notes{
                         background-color: #272634;
                         color: #ffffff;
-                        .font();
+                        .font_16();
 
-                        #cohort_details{
+                        #cohort_list{
                             align-items: center;
                             display: flex;
                             padding: 0px;
@@ -38,8 +38,9 @@
                                     border: 1px solid #05aae1;
                                     color: #ffffff;
                                     height: 36px;
-                                    margin-left: 90px;
-                                    width: 120px;
+                                    margin-left: 94px;
+                                    // width: 120px;
+                                    padding: 10px 22px;
                                 }
                             }
 
@@ -60,7 +61,7 @@
 
                                 #cohort_contact_number{
                                     color: #05aae1;
-                                    .font();
+                                    .font_16();
                                     margin: 0px;
                                     vertical-align: center;
                                 }
@@ -70,10 +71,10 @@
                 }
             }
 
-            #nav_bar_section{
+            #navbar_section{
                 background-color: #1d1f21;
 
-                #nav_bar_container{
+                #navbar_container{
                     margin: 0px auto;
                     max-width: 1440px;
                     padding: 13px 40px 13px 30px;
@@ -84,27 +85,28 @@
                         margin: 0px;
                         padding: 0px;
         
-                        .navbar-nav{
+                        .navbar_list{
         
                             .nav-link{
                                 padding: 0px;
                             }
                         }
         
-                        #coding_dojo_logo{
-                            height: 30px;
+                        #coding_dojo{
+                            // height: 30px;
                             margin-right: 179px;
-                            width: 99px;
+                            // width: 99px;
                         }
         
                         .collapse{
-                            margin: 0px;
+                            // margin: 0px;
             
                             .nav-item{
                                 align-items: center;
                                 display: flex;
-                                margin-left: 0px;
-                                margin-right: 46px;
+                                margin: 0px 46px 0px 0px;
+                                // margin-left: 0px;
+                                // margin-right: 46px;
 
                                 .nav-link{
                                     color: #ffffff;
@@ -112,7 +114,7 @@
                                 }
 
                                 .dropdown_icon{
-                                    height: 4px;
+                                    // height: 4px;
                                     margin-left: 10px;
                                     width: 10px;
                                 }
@@ -122,19 +124,19 @@
                                 margin-right: 72px;
                             }
                             
-                            .dojo{
+                            #dojo_diff{
                                 margin-right: 25px;
                             }
 
-                            .online{
+                            #online_campus{
                                 margin-right: 29px;
                             }
                         }
 
-                        .nav_bar_button{
+                        .btn{
                             background-color: #05aae1;
                             color: #ffffff;
-                            font: normal 700 16px/19.49px 'Proxima Nova';
+                            font: normal 700 16px/19px 'Proxima Nova';
                             height: 36px;
                             padding: 0px;
                             text-align: center;

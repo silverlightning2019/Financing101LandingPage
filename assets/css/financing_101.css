@@ -16,97 +16,90 @@
   font: normal 400 16px/16px 'Proxima Nova';
   letter_spacing: 0.6px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list {
   align-items: center;
   display: flex;
   padding: 0px;
   margin: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details .cohort_item {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item {
   list-style: none;
   padding: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details .cohort_item #cohort_button {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list .cohort_item #cohort_button {
   background-color: transparent;
   border: 1px solid #05aae1;
   color: #ffffff;
   height: 36px;
-  margin-left: 90px;
-  width: 120px;
+  margin-left: 94px;
+  padding: 10px 22px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_text {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_text {
   margin-right: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact {
   align-items: center;
   display: flex;
   margin-left: 230px;
   margin-right: 0px;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact #cohort_phone_icon {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact #cohort_phone_icon {
   margin-right: 13px;
   vertical-align: center;
 }
-* body header #cohort_section #cohort_container #cohort_notes #cohort_details #cohort_contact #cohort_contact_number {
+* body header #cohort_section #cohort_container #cohort_notes #cohort_list #cohort_contact #cohort_contact_number {
   color: #05aae1;
   font: normal 400 16px/16px 'Proxima Nova';
   letter_spacing: 0.6px;
   margin: 0px;
   vertical-align: center;
 }
-* body header #nav_bar_section {
+* body header #navbar_section {
   background-color: #1d1f21;
 }
-* body header #nav_bar_section #nav_bar_container {
+* body header #navbar_section #navbar_container {
   margin: 0px auto;
   max-width: 1440px;
   padding: 13px 40px 13px 30px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar {
+* body header #navbar_section #navbar_container .navbar {
   font: normal 700 16px/19px 'Proxima Nova';
   letter-spacing: 0.4px;
   margin: 0px;
   padding: 0px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .navbar-nav .nav-link {
+* body header #navbar_section #navbar_container .navbar .navbar_list .nav-link {
   padding: 0px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar #coding_dojo_logo {
-  height: 30px;
+* body header #navbar_section #navbar_container .navbar #coding_dojo {
   margin-right: 179px;
-  width: 99px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .collapse {
-  margin: 0px;
-}
-* body header #nav_bar_section #nav_bar_container .navbar .collapse .nav-item {
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item {
   align-items: center;
   display: flex;
-  margin-left: 0px;
-  margin-right: 46px;
+  margin: 0px 46px 0px 0px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .collapse .nav-item .nav-link {
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item .nav-link {
   color: #ffffff;
   padding: 0px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .collapse .nav-item .dropdown_icon {
-  height: 4px;
+* body header #navbar_section #navbar_container .navbar .collapse .nav-item .dropdown_icon {
   margin-left: 10px;
   width: 10px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .collapse li:last-child {
+* body header #navbar_section #navbar_container .navbar .collapse li:last-child {
   margin-right: 72px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .collapse .dojo {
+* body header #navbar_section #navbar_container .navbar .collapse #dojo_diff {
   margin-right: 25px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .collapse .online {
+* body header #navbar_section #navbar_container .navbar .collapse #online_campus {
   margin-right: 29px;
 }
-* body header #nav_bar_section #nav_bar_container .navbar .nav_bar_button {
+* body header #navbar_section #navbar_container .navbar .btn {
   background-color: #05aae1;
   color: #ffffff;
-  font: normal 700 16px/19.49px 'Proxima Nova';
+  font: normal 700 16px/19px 'Proxima Nova';
   height: 36px;
   padding: 0px;
   text-align: center;
